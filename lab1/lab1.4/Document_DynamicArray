@@ -1,0 +1,265 @@
+
+/*
+    Bounded-size dynamic arrays and capacity
+
+The simplest dynamic array is constructed by allocating a fixed-size array and then dividing it into two parts: the first stores the elements of the dynamic array and the second is reserved, or unused. We can then add or remove elements at the end of the dynamic array in constant time by using the reserved space, until this space is completely consumed. The number of elements used by the dynamic array contents is its logical size or size, while the size of the underlying array is called the dynamic array's capacity, which is the maximum possible size without relocating data.
+
+In applications where the logical size is bounded, the fixed-size data structure suffices. This may be short-sighted, when problems with the array filling up turn up later. It is best to put resize code into any array, to respond to new conditions. Then choosing initial capacity is optimization, not getting the program to run. Resizing the underlying array is an expensive task, typically involving copying the entire contents of the array.
+
+    Geometric expansion and amortized cost
+
+To avoid incurring the cost of resizing many times, dynamic arrays resize by a large amount, such as doubling in size, and use the reserved space for future expansion. The operation of adding an element to the end might work as follows:
+
+	function insertEnd(dynarray a, element e)
+    	  if (a.size = a.capacity)
+          // resize a to twice its current capacity:
+          a.capacity ← a.capacity * 2  
+          // (copy the contents to the new memory location here)
+        a[a.size] ← e
+        a.size ← a.size + 1
+
+// to expand the vector: 
+// Den nya "vector" ska kUNNA ÄNDRA STORLEK EFTER DEN SKAPATS.
+// If sz is greater than the current vector size, the content is expanded by 
+// inserting at the end as many as needed to reach a size of sz elements.
+// sz is the new vector size, expressed in elements.
+
+Percio' la rappresentazione dell’array dinamico usera' 3 informazioni:
+  1- il puntatore all’area di memoria che contiene gli elementi dell’array;
+  2- il numero di elementi effettivamente inseriti nell’array (riempimento)
+  3- il numero di elementi allocati, che chiameremo dimensione o capacita'
+
+L’operazione che caratterizza un array dinamico e' il ridimensionamento, che cambia
+il numero di elementi che possono essere contenuti nell’array. Se l’area di memoria
+allocata per contenere gli elementi non e' suffciente per contenere il nuovo numero
+di elementi, e' necessaria un’operazione di riallocazione.
+
+ La riallocazione e' costituita, concettualmente, da tre passi:
+ • allocazione di una nuova area di memoria per gli elementi;
+ • copia degli elementi dalla vecchia area di memoria alla nuova;
+ • deallocazione della vecchia area di memoria
+
+*/
+// resize vector (Ridimensionamento)
+// Strategy of DOUBLING of the current capacity
+void extend_vec (const size_t sz)
+{ 
+  //size = new_size;
+  if (sz != 0)
+  {
+   //if (size > capacity/2)  // capacity is the real size of the allocated memory
+    //{
+      capacity = sz*2;  // double the previous allocated memory (multiplicity = 2)
+    //}
+    T *temp = ptr;
+    ptr = new T[capacity]; // create the new extended vector(memory allocation)
+  
+    for (size_t i=o; i<size; i++)  // copy the elements from the old memory
+      ptr[i] = temp[i];
+
+    delete[] temp; // deallocation of the old memory
+  }
+  //else
+   // clear();  
+}  
+
+//%%%%%%%%%%  expand_vector() =========================       
+template <class T>
+  void Vector<T>::expand_vector(const size_t amount)
+{
+  //flytta hit all expanderings kod
+  if (tot_size>0) 
+  { 
+    // must copy stuff
+    T* tmp_data = data;
+
+    tot_size += amount;
+    data = new T[tot_size];
+
+    if (tmp_data!=NULL) 
+    {
+      for (size_t i=0; i<vec_size; i++)
+        data[i] = tmp_data[i];
+       
+      delete [] tmp_data;
+    }
+
+  }else 
+    {  data = new T[amount]; 
+       tot_size = amount; 
+    }
+}
+
+
+/*
+%%%%%%%%%%%%%%%%%%%% 1.5 Templates(mallar) 
+
+a) Modifiera din vektorklass Vector från uppgift 1.4 så att den kan
+lagra en GODTYCKLIG DATATYP genom att använda mallar (templates). 
+Din nya klass ska dessutom KUNNA ÄNDRA STORLEK EFTER DEN SKAPATS. 
+Klassen ska fortfarande kasta std::out_of_range vid ogiltig åtkomst. 
+
+Exempel på instansiering:
+	class A;
+	...
+	Vector<double> dvect;
+	Vector<A *> apvect;
+	Vector<int> ivect(10);
+
+-- Defaultkonstruktorn ska skapa en tom vektor. 
+Om man anger en storlek till konstruktorn ska elementen initieras till defaultvärdet för typen (tilldela värdet T() till elementen). 
+
+-- Implementera även en konstruktor som tar två argument,
+dels en storlek och ett defaultvärde för alla element i vektorn.
+
+b) Du ska också lägga till ny funktionalitet i din klass:
+
+% push_back(T) lägger till ett element sist i vektorn. Det ska för det mesta
+  ske i konstant tid.
+
+% insert(size_t i, T) lägger till ett element före plats i. Om i är lika
+  med antal element i vektorn fungerar metoden som push_back.
+
+% erase(size_t i) tar bort ett element på plats i
+
+% clear() tar bort alla element
+
+% size() ger antal element i vektorn.
+
+% sort(bool ascending = true) sorterar vektorn i angiven riktning på
+  enklast möjliga sätt. Använd std::sort (datatyper som ska jämföras måste
+  definiera operator<.)
+
+% exists(const T &) Returnerar true om elementet finns i vektorn annars
+  false. Använd std::find för att implemtera funktionen.
+
+Se till att rena åtkomstfunktioner ( read only) är konstantdeklarerade.
+
+Prova din nya vektorklass med filen test_template_vec.cpp. Detta testprogram
+kontrollerar inte all funktionalitet. Du måste själv ansvara för att skriva
+ett bättre testprogram som testar randvillkoren ordentligt. Ett minimum av test
+är att skriva ett test för varje medlemsfunktion man implementerar. 
+
+Glöm inte använda valgrind.
+*/
+
+/*
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Programs as Data: Function Pointers
+
+A function pointer is a variable that stores the address of a function that can later be called through that function pointer. This is useful because functions encapsulate behavior. For instance, every time you need a particular behavior such as drawing a line, instead of writing out a bunch of code, all you need to do is call the function. But sometimes you would like to choose different behaviors at different times in essentially the same piece of code. Read on for concrete examples. 
+
+          Example Uses of Function Pointers
+%%%%  Functions as Arguments to Other Functions:
+If you were to write a sort routine, you might want to allow the function's caller to choose the order in which the data is sorted; some programmers might need to sort the data in ascending order, others might prefer descending order while still others may want something similar to but not quite like one of those choices. One way to let your user specify what to do is to provide a flag as an argument to the function, but this is inflexible; the sort function allows only a fixed set of comparison types (e.g., ascending and descending). 
+
+A much nicer way of allowing the user to choose how to sort the data is simply to let the user pass in a function to the sort function. This function might take two pieces of data and perform a comparison on them.
+
+%%% Callback Functions:
+Another use for function pointers is setting up "listener" or "callback" functions that are invoked when a particular event happens. The function is called, and this notifies your code that something of interest has taken place.
+
+Let's go back to the sorting example where I suggested using a function pointer to write a generic sorting routine where the exact order could be specified by the programmer calling the sorting function. It turns out that the C function qsort does just that. 
+
+void qsort(void *base, size_t nmemb, size_t size,
+            int(*compar)(const void *, const void *));
+
+Note the use of void*s to allow qsort to operate on any kind of data (in C++, you'd normally use templates for this task, but C++ also allows the use of void* pointers) because void* pointers can point to anything.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% FUNKTIONSOBJEKT, functor %%%%%%%%%%%%%%%%
+
+Both C and C++ support function pointers, which provide a way to pass around instructions on how to perform an operation. But function pointers are limited because functions must be fully specified at compile time. 
+
+What do I mean? Let's say that you're writing a mail program to view an inbox, and you'd like to give the user the ability to sort the inbox on different fields--to, from, date, etc. 
+
+You might try using a sort routine that takes a function pointer capable of comparing the messages, but there's one problem--there are a lot of different ways you might want to compare messages. You could create different functions that differ only by the field of the message on which the comparison occurs, but that limits you to sorting on the fields that have been hard-coded into the program. It's also going to lead to a lot of if-then-else blocks that differ only by the function passed into the sort routine.
+
+What you'd really like is the ability to pass in a third argument to your comparison function, telling it which field to look at. But to make this work, you'd have to write your own sort routine that knows about the third argument; you can't use a generic routine like the STL's sort function because you can't tell it to pass in a third argument to the comparator. Instead, you somehow need the ability to "embed" what field to sort on inside the function.
+
+It turns out that you can get this behavior in C++ (but not in C) through the use of function objects (aka "functors"). Functors are objects that can be treated as though they are a function or function pointer--you could write code that looks like this: 
+	myFunctorClass functor;
+        functor( 1, 2, 3 );
+
+This code works because C++ allows you to overload operator(), the "function call" operator. The function call operator can take any number of arguments of any types and return anything it wishes to. (It's probably the most flexible operator that can be overloaded; all the other operators have a fixed number of arguments.) For ease of discussion, when an object's operator() is invoked, I'll refer to it as "calling" the object as though it were a function being called.
+
+While overloading operator() is nice, the really cool thing about functors is that their lifecycle is more flexible than that of a function--you can use a a functor's constructor to embed information that is later used inside the implementation of operator().
+
+Let's look at an example. This example creates a functor class with a constructor that takes an integer argument and saves it. When objects of the class are "called", it will return the result of adding the saved value and the argument to the functor:
+     
+#include <iostream>
+ 
+class myFunctorClass
+{
+    public:
+        myFunctorClass (int x) : _x( x ) {}
+        int operator() (int y) { return _x + y; }
+    private:
+        int _x;
+};
+ 
+int main()
+{
+    myFunctorClass addFive( 5 );
+    std::cout << addFive( 6 );
+ 
+    return 0;
+}
+
+In short, the act of constructing an object lets you give the functor information that it can used inside the implementation of its function-like behavior (when the functor is called through operator()).
+//=====================================
+
+//%%%%%%%%%%%%%%%%% Funktionsobjekt (Alba)
+
+• Funktionsobjekt (function objekt) är objekt
+som imiterar syntaxen hos en funktion
+
+• En fördel i jämförelsen med funktionspekare
+är att funktionsobjekt kan innehålla data
+
+• När man använder funktionspekare sker alla
+anrop genom att avreferera pekaren.
+Samtidigt är det svårt att göra funktionen
+inline
+
+struct less_abs
+{
+  bool operator()(double x, double y)
+  {   
+     return fabs(x) < fabs(y); 
+  }
+};
+
+std::vector<double> v;
+...
+
+// konstruera less_abs-objekt
+std::sort(v.begin(), v.end(), less_abs());
+
+// rand är FUNKTION PEKARE
+std::vector<int> u(100);
+std::generate(u.begin(), u.end(), rand);
+
+//===========
+ Funktionsobjekt Skilj på TYPER och OBJEKT (instanser av typer)
+
+struct A 
+{ int i; 
+};
+
+struct Comp 
+{
+  bool operator()(const A &a, const A &b) const
+  {
+	return a.i < b.i;
+  }
+};
+
+// Comp är en TYP och används inuti std::map
+// vid kompileringstillfället
+std::map<A, A, Comp> m;
+
+// Comp() är en INSTANS och används i funktionen
+// std::sort vid körningstillfället
+std::vector<A> v;
+std::sort(v.begin(), v.end(), Comp());
+
+*/
+

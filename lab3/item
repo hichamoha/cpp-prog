@@ -1,0 +1,229 @@
+/*
+ 
+Answer1:
+The usual process for an inventory depends on item types being defined in a class 
+hierarchy. So Item is usually an abstract class and everything else derives from 
+it; Weapon derives from Item, Armor derives from Item, Helmet derives from Armor, etc.
+
+This way you can define the inventory as a simply vector of references to Item:
+vector<&Item> Inventory;
+
+Or can create containers just for armor types, for instance, by:
+vector<&Armor> Armory;
+
+Because all objects types belong to an hierarchy, the vector can receive the base 
+class defined when it is declared and all derived classes from that class, as per
+the language rules concerning polymorphism. Then you wrap that vector inside a 
+class and define the necessary functionality like searching the inventory, 
+listing it, removing and adding items.
+
+
+Code:
+
+enum ItemType { 
+    Weapon,
+    Consumable,
+    Helmet
+    // etc...
+};
+
+class Item
+{
+      private: 
+               string Itemname;
+               int itemnumber;
+               int ItemBaseValue;
+               string ItemDescription;
+               int MaxItemCharges;
+               ItemType type;
+               int WeaponBase;
+               int HealBase;
+
+               // ... //
+};
+
+Answer2:
+Make an interface for item or at the very least a base class that has within it 
+all the common behavior and functionality common to all items. Then derive each
+type of item from this base class.
+
+Any time you are identifying an object based on a query for it's type as in:
+
+Code:
+	
+if (objecttype == somehardcodedtype)
+{
+}
+*/
+
+/*
+Question:
+I am wondering how i should go about making an inventory system that allows me to 
+add items to it view the items(text wise) and modify such as drop use if consumable.
+But when it comes to making an inventory I'm not doing well. So far all i have is 
+to make the inventory items easily accessible i made a inventoryslot array global
+and an inventoryslotamount array. One is like an inventory slot the other is the 
+amount of the same item in that slot.
+*/
+//Ive made a Class for items
+class Item
+{
+      private:
+               string Itemname;
+               int itemnumber;
+               int ItemBaseValue;
+               string ItemDescription;
+               int MaxItemCharges;
+               bool Weapon;
+               bool Consumable;
+               bool Helmet;
+               bool Gloves;
+               bool Body;
+               bool Boots;
+               bool Accessory;
+               int WeaponBase;
+               int HealBase;
+      public:
+                 void setItemnumber(int number)
+                 {
+                      itemnumber = number;
+                 }
+                 int GetItemnumber()
+                 {
+                      return(itemnumber);
+                 }                
+                 string getItemname()
+                 {
+                        return(Itemname);
+                 }
+                 int getItemBaseValue()
+                 {
+                        return(ItemBaseValue);
+                 }
+                 int getWeaponBase()
+                 {
+                        return(WeaponBase);
+                 }
+                 int getHealBase()
+                 {
+                        return(HealBase);
+                 }
+                  string getType()
+                 {
+                   string type;    
+                   if(Weapon == true)
+                   {
+                      type = "Weapon";
+                   }
+                   if(Consumable == true)
+                   {
+                      type = "Consumable";
+                   }       
+                   if(Helmet == true)
+                   {
+                      type = "Helmet";
+                   }  
+                   if(Gloves == true)
+                   {
+                      type = "Gloves";
+                   }
+                   if(Body == true)
+                   {
+                      type = "Body";
+                   }
+                   if(Boots == true)
+                   {
+                      type = "Boots";
+                   }
+                   if(Accessory == true)
+                   {
+                      type = "Accessory";
+                   }
+                   return(type);
+                 }                                                     
+                 void setItemname(string name)
+                 {
+                   Itemname = name;
+                 }
+                 void setItemdesc( string description)
+                 {
+                      ItemDescription = description;
+                 }
+                 void setHealBase(int number)
+                 {
+                     HealBase = number;
+                 }
+                 void setItemvalue(int number)
+                 {
+                    ItemBaseValue = number;
+                 }
+                 void setWbase(int number)
+                 {
+                   WeaponBase = number;
+                 }   
+  		 void setType(string type)
+                 {
+                   if(type == "Weapon")
+                   {
+                      Weapon = true;
+                   }
+                   if(type == "Consumable")
+                   {
+                      Consumable = true;
+                   }       
+                   if(type == "Helmet")
+                   {
+                      Helmet = true;
+                   }  
+                   if(type == "Gloves")
+                   {
+                      Gloves = true;
+                   }
+                   if(type == "Body")
+                   {
+                      Body = true;
+                   }
+                   if(type == "Boots")
+                   {
+                      Boots = true;
+                   }
+                   if(type == "Accessory")
+                   {
+                      Accessory = true;
+                   }    
+                 }                                                                                     
+                 int getitemtype(int number)
+                 {
+                     number = 0;           
+                     if(Weapon == true)
+                     {
+                          number = 1;       
+                     }
+                     if(Body == true)
+                     {
+                          number = 2;                                        
+                     }
+                     if(Gloves == true)
+                     {
+                          number = 3;                                   
+                     }
+                     if(Boots == true)
+                     {
+                          number = 4;                                  
+                     }
+                     if(Accessory == true)
+                     {
+                          number = 5;                                   
+                     }
+                     if(Helmet == true)
+                     {
+                          number = 6;                                   
+                     }  
+		     if(Consumable == true)
+                     {
+                          number = 7;                                   
+                     }
+                     return
+(number);                                                                                                        
+                 }
+};	

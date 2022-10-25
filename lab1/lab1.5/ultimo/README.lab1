@@ -1,0 +1,386 @@
+/////////////////////////////////////////////////////////////////
+//
+// Personuppgifter (namn, pnr, epost) på dem som gjort labben
+//
+   Hicham MOHAMAD, 720101-3278, hsmo@kth.se
+
+/////////////////////////////////////////////////////////////////
+//
+// 1.1
+//
+// vad betyder \$* i en makefile? 
+   $* The part of a filename which matched a suffix rule.
+   $* is a built-in macro of Make which defines the base name of the current target
+// vad gör -Wall och -g ?
+   -g insert debugging info in your exutable
+   -Wall turn on warnings
+   -o output file
+   -c compile but not link 
+
+/////////////////////////////////////////////////////////////////
+//
+// 1.2 a)
+// 
+// int powerof(int x, int y) {
+//     int res = 1;
+//     for (int i = 0; i < y; i++); {
+//         res *= x;
+//     }
+//     return res;
+// }
+// 
+// int main() {
+//     int x = 10;
+//     int y = 3;
+// 
+//     int res = powerof(x, y);
+// 
+//     std::cout << x << " upphöjt till " << y << " är " << res << std::endl;
+// 
+//     float z = 0.29;
+//     int w = (int) (z * x * x);
+//     if (z * x * x == 29)
+//         std::cout << z << "*" << x * x << " är 29" << std::endl;
+//     else
+//         std::cout << z << "*" << x * x << " är inte 29" << std::endl;           
+// }
+// 
+// Varför blir värdet på variabeln w inte det man tror (0.29*100)? 
+
+The precision of a floating-point number is how many digits it can represent
+without information loss. 
+
+When outputting floating-point numbers, 'cout' has a default precision of 6
+significant digits that is, it assumes all variables are only significant to 6
+digits, and hence it will truncate anything after that -- with double numbers
+precision is 10 significant digits.
+
+float z = 0.29; sätter egentligen z = 0.289999992
+Detta multipliceras sedan med x*x och trunkeras vilket innebär att decimalerna 
+skärs bort utan avrundning. Detta leder till att z*x*x = 28.
+ 
+
+// Hur många varv körs for-loopen i funktionen powerof? 
+
+(i=0; i<y; i++) och y = 3 --> i = 0,1,2. Alltså tre gånger. 
+Eftersom det finns ett ";" loopen avslutas direkt efter for definition 
+Detta gör att res = 1 och res *= x är inte en del av loopen. 
+
+
+// 1.2 b)
+//
+// int must_follow_a(char * start, int length, char a, char b) {
+//     int nr = 0;
+//     for (int i = 0; i < length; i++, ++start) {
+//         if (*start == a && *(start + 1) == b) // maintainers note: DANGER!
+//             nr += 1;
+//     }
+//     return nr;
+// }
+// 
+// Dina tre testfall
+ void test_a_is_second_to_last_case1( void )
+     {//ingen teckenföljd
+
+        char vek[] = {'b','b','b','b','a'};
+        int result = must_follow_a(vek,5,'a','b');
+        TS_ASSERT_EQUALS( result, 0);
+     } 
+
+    void test_a_is_second_to_last_case2( void )
+    {
+        char vek[] = {'a', 'b', 'a', 'b', 'x'};
+        int result = must_follow_a(vek, 4, 'a', 'b');
+        TS_ASSERT_EQUALS( result, 2);
+     }
+
+     void test_a_is_second_to_last_case3( void )
+     {
+        char vek[] = {'b', 'b', 'a', 'b', 'b'};
+        int result = must_follow_a(vek, 3, 'a', 'b');
+        TS_ASSERT_EQUALS( result, 0);
+     }
+
+
+// Varför är det så viktigt att testa randvillkoren?
+An off-by-one error (OBOE) is a logic error involving the discrete equivalent of a boundary condition. 
+It often occurs in computer programming when an iterative loop iterates one time too many or too few. 
+This problem could arise when a programmer makes mistakes such as using "is less than or equal to" where "is less than" should have been used in a comparison or fails to take into account that a sequence starts at zero rather than one (as with array indices in many languages).
+I uppgift 1.2b borde funktionen must_follow_a inte gå till i<length och titta
+som sista utan den borde stanna 1 tecken innan. 
+
+/////////////////////////////////////////////////////////////////
+//
+// 1.3 
+// 
+// Bifoga källkoden till din version av A.cpp
+
+#include <iostream>
+
+class A {
+public:
+    A()   // Default constructor ==============================
+    {
+       std::cout << "The default contructor" << std::endl; 
+    }
+
+    // Costruttore di coppia ==================================
+    A(const A & ref) 
+    {
+       std::cout << "The copy contructor" << std::endl; 
+    } 
+    
+    ~A()  // Destructor ======================================= 
+    {
+       std::cout << "The destructor" << std::endl; 
+    }
+
+    A(char * s)  // Other constructor =========================
+    //A(std::string s)  // Other constructor ==================
+    {
+       std::cout << "Some other constructor " << s << std::endl;
+    }
+
+  // Overloading dell'assegnazione =============================
+  /* 
+     Here assignment operator must be defined as a member function.
+     ==> the left-hand operand is bound to the implicit "this" parameter.
+   */     
+    A & operator= (const A & s) 
+    {
+       std::cout << "The assignment operator" << std::endl; 
+       return *this;
+    }
+};
+
+void no_ref(A a) {}
+
+void with_ref(const A & a) {}
+
+int main()
+{
+    A a("my name is a");
+    A b = a;         //initialization          // vad är skillnaden
+    A c(a);          //initialization          // mellan dessa
+    A d;             //Default constructor     // tre tekniker?
+    d = a;           //Assignment, not copy constructor 
+
+    no_ref(a);       //yes, parameter passing per value //Bildas temporära objekt?
+    with_ref(a);     //NO ??                          // Bildas temporära objekt?
+
+    A *aa = new A[5]; // allocate enough memory to hold 5 instances of type A
+                      // contiguously and return its address.
+                      //När du allokerar dynamiskt minne, se till att överlåta
+                      // ansvaret att frigöra minnet till ett objekt så fort som
+                      // möjligt efter allokeringen. Använd std::vector istället
+                      // för new[] eller "smarta pekare" std::auto_ptr<>
+    delete aa;       // Vad kommer att hända? undefined!..delete bara en object
+                     // of 5 allocated in memory
+    return 0;
+}
+/*********** Correction:
+   a memory leak arises whenever memory allocated through new is never
+   returned through delete.
+    delete [] aa; fine !    delete aa;  undefined !!!  
+*/
+
+
+// Vad skriver ditt program ut, var förberedd att förklara varför. 
+
+A.cpp:70:23: warning: deprecated conversion from string constant to char
+
+red-14:~/c++prog/labbar/lab1>./A.out
+Some other constructor my name is a
+The copy contructor
+The copy contructor
+The default contructor
+The assignment operator
+The copy contructor
+The destructor
+The default contructor
+The default contructor
+The default contructor
+The default contructor
+The default contructor
+The destructor
+Segmentation fault
+
+// När frigörs objekten?  
+
+I slutet där det står delete aa; frigörs bara den första dynamiska objekten.
+
+// När skapas temporära objekt?
+
+Temporary objects are unnamed objects created on the stack by the compiler. They are used during reference initialization and during evaluation of expressions including standard type conversions, argument passing, function returns, and evaluation of the throw expression.
+
+//   A b = a; 		// vad är skillnaden
+//   A c(a);		// mellan dessa
+//   A d;		// tre tekniker?  
+ 1- Initialization, använder copy constructor 
+    Alltså blir den första optimerad av kompilatorn att istället för 
+    att skapa objekt b och sen assign a så skapas det direkt med 
+    COPY konstruktorn.
+  
+ 2- Initialization, använder copy constructor 
+     
+ 3- Default constructor                       
+
+
+//   no_ref(a);       // Bildas temporära objekt?
+Ja det bildas ett temporärt objekt som förstörs när programpekaren går ur scopet.
+
+//   with_ref(a);     // Bildas temporära objekt?
+Nej det skickas en referens direkt till objektinstansen a.
+
+//   delete aa;       // Vad kommer att hända
+ a memory leak arises whenever memory allocated through new is never
+ returned through delete. it returned only aa[0]
+    delete [] aa; fine !    delete aa;  Invalid delete !!!  
+
+/////////////////////////////////////////////////////////////////
+//
+// struct Data {
+//     int x, y, z;
+// };  
+// 
+// Data ** foo(Data ** v, int x) {
+//     for (int i = 0; i < x; i++)
+//         //if (v[i] != 0)
+//             v[i] = new Data;
+//     return v;
+// }
+// 
+// int main () {
+//     const int size = 5;
+//     Data ** v = new Data * [size];
+//     Data ** p = foo(v, size);
+//     delete [] p;
+// }
+
+// Hur ser valgrinds felmeddelande ut?  
+
+==20845== Memcheck, a memory error detector
+==20845== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==20845== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==20845== Command: ./Data.out
+==20845== 
+==20845== Conditional jump or move depends on uninitialised value(s)
+==20845==    at 0x4005D0: foo(Data**, int) (Data.cpp:7)
+==20845==    by 0x400638: main (Data.cpp:15)
+==20845== 
+==20845== 
+==20845== HEAP SUMMARY:
+==20845==     in use at exit: 40 bytes in 1 blocks
+==20845==   total heap usage: 1 allocs, 0 frees, 40 bytes allocated
+==20845== 
+==20845== 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==20845==    at 0x4C2AC27: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==20845==    by 0x400623: main (Data.cpp:14)
+==20845== 
+==20845== LEAK SUMMARY:
+==20845==    definitely lost: 40 bytes in 1 blocks
+==20845==    indirectly lost: 0 bytes in 0 blocks
+==20845==      possibly lost: 0 bytes in 0 blocks
+==20845==    still reachable: 0 bytes in 0 blocks
+==20845==         suppressed: 0 bytes in 0 blocks
+==20845== 
+==20845== For counts of detected and suppressed errors, rerun with: -v
+==20845== Use --track-origins=yes to see where uninitialised values come from
+==20845== ERROR SUMMARY: 6 errors from 2 contexts (suppressed: 2 from 2)
+
+
+// Blir det någon skillnad i hur mycket minne som läcker när man
+// kommenterar if-satsen?
+
+==20856== Memcheck, a memory error detector
+==20856== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==20856== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==20856== Command: ./Data.out
+==20856== 
+==20856== 
+==20856== HEAP SUMMARY:
+==20856==     in use at exit: 100 bytes in 6 blocks
+==20856==   total heap usage: 6 allocs, 0 frees, 100 bytes allocated
+==20856== 
+==20856== 100 (40 direct, 60 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
+==20856==    at 0x4C2AC27: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==20856==    by 0x40060E: main (Data.cpp:14)
+==20856== 
+==20856== LEAK SUMMARY:
+==20856==    definitely lost: 40 bytes in 1 blocks
+==20856==    indirectly lost: 60 bytes in 5 blocks
+==20856==      possibly lost: 0 bytes in 0 blocks
+==20856==    still reachable: 0 bytes in 0 blocks
+==20856==         suppressed: 0 bytes in 0 blocks
+==20856== 
+==20856== For counts of detected and suppressed errors, rerun with: -v
+==20856== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 2 from 2)
+
+
+// Borde det ha blivit någon skillnad?
+
+Kanske, det beror på om minnet innehållt 0 eller inte innan vi "bokade upp minnet". 
+Det avgör om vi kommer skapa nya objekt i den första versionen.
+
+// Varför läcker programmet fortfarande minne?
+
+Objekt instanserna blir ej borttagna. Vi tar bara bort pekar-strukturen v.
+Vector frigörs, men pekare har ingen destructor så innehållet i vektorn
+dvs Data objects frigörs inte.
+
+/////////////////////////////////////////////////////////////////
+//
+// 1.4
+//
+// Generellt är det ofta en god idé att låta konstruktorer som
+// tar ett argument deklareras som explicit. Varför? Ange ett
+// exempel där det annars kan bli dumt.
+
+conversion constructor: Because constructor that can be called with a single argument defines an IMPLICIT CONVERSION from the constructor's parameter type to the classe type. The explicit keyword is used only on the constructor declaration inside the class. it is not repeated on a definition made outside the class body.
+
+Example:
+class Y {
+  int a, b;
+  char* name;
+public:
+  Y(int i) { };                      //conversion constructor
+  Y(const char* n, int j = 0) { };   //other constructor, 2 parameters
+};
+
+void add(Y) { };
+
+int main() {
+
+  // equivalent to
+  // obj1 = Y(2)
+  Y obj1 = 2;
+
+  // equivalent to
+  // obj2 = Y("somestring",0)
+  Y obj2 = "somestring";
+
+  // equivalent to
+  // obj1 = Y(10)
+  obj1 = 10;
+
+  // equivalent to
+  // add(Y(5))
+  add(5);          // here is used conversion constructor
+}
+Y(int i) is used to convert automatically integers to objects of class Y.
+om Y(int i) deklareras "explicit Y(int i)" så kan inte kompilatorn göra denna konvertering och ger ett Error istället.
+
+
+// operatorn[] måste vara en konstant medlemsfunktion i vissa
+// fall. När och varför? Hur kopierar man vektorn?
+
+a) När man vill läsa element i en konstant vektor. Då måste alla metoder
+   som anropas vara const (även operatorer). Anledningen är att konstanta
+   objekt inte ska kunna ändras.
+b) Man kan kopiera vektorn genom tilldelning: Vector copy = old;
+   Kan också göras med rekursion om man skickar en vektor som en
+   värdeparameter.
+
+
+
+

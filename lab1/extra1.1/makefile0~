@@ -1,0 +1,38 @@
+# Change these
+cxxtestpath = /info/DD2387/kurskatalog/cxxtest/
+#cxxtestpath = ../cxxtest/
+
+testcode    = example_test.h
+#testcode    = test_code.h
+
+tests: runtest01 runtest02 runtest03 runtest04 runtest05 runtest06 runtest07 runtest08 runtest09
+
+.cpp.o:
+	g++ -std=c++0x -Wall -Wextra -Weffc++ -g -c $< -o $@
+
+my_matrix.o: my_matrix.h
+
+testcode.cpp: $(testcode)
+	python $(cxxtestpath)cxxtestgen.py --error-printer -o testcode.cpp $(testcode)
+
+runtest0%: testcode.cpp
+	g++ -I $(cxxtestpath) -o runtest0$* testcode.cpp Matrix0$*.o
+
+test: tests
+	./runtest01 || true
+	./runtest02 || true
+	./runtest03 || true
+	./runtest04 || true
+	./runtest05 || true
+	./runtest06 || true
+	./runtest07 || true
+	./runtest08 || true
+	./runtest09 || true
+
+runmytest: testcode.cpp my_matrix.o ../1.5/vector.h
+	g++ -I $(cxxtestpath) -g -DUSE_OUR_VECTOR -o runmytest testcode.cpp my_matrix.o
+
+clean:
+	-rm -f runtest0* runmytest testcode.cpp my_matrix.o
+
+

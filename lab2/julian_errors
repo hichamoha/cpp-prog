@@ -1,0 +1,42 @@
+g++ -g -std=c++0x -Wall -c cprog09lab22a.cpp date.cpp roman.cpp julian.cpp kattistime.cpp 	
+In file included from cprog09lab22a.cpp:8:0:
+julian.h:78:12: error: invalid abstract return type for member function ‘lab2::Julian lab2::Julian::operator++(int)’
+julian.h:40:9: note:   because the following virtual functions are pure within ‘lab2::Julian’:
+date.h:102:25: note: 	virtual std::string lab2::Date::month_name() const
+julian.h:79:12: error: invalid abstract return type for member function ‘lab2::Julian lab2::Julian::operator--(int)’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+cprog09lab22a.cpp: In function ‘void {anonymous}::new_date() [with D = lab2::Julian]’:
+cprog09lab22a.cpp:86:21:   instantiated from here
+cprog09lab22a.cpp:58:5: error: cannot allocate an object of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+cprog09lab22a.cpp:60:5: error: cannot allocate an object of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+cprog09lab22a.cpp: In function ‘void {anonymous}::new_date_copy() [with D = lab2::Julian]’:
+cprog09lab22a.cpp:88:26:   instantiated from here
+cprog09lab22a.cpp:71:4: error: cannot allocate an object of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+In file included from julian.cpp:11:0:
+julian.h:78:12: error: invalid abstract return type for member function ‘lab2::Julian lab2::Julian::operator++(int)’
+julian.h:40:9: note:   because the following virtual functions are pure within ‘lab2::Julian’:
+date.h:102:25: note: 	virtual std::string lab2::Date::month_name() const
+julian.h:79:12: error: invalid abstract return type for member function ‘lab2::Julian lab2::Julian::operator--(int)’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp: In static member function ‘static void lab2::Julian::runTestDriver()’:
+julian.cpp:24:13: error: cannot declare variable ‘j’ to be of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp: In member function ‘lab2::Julian lab2::Julian::operator++(int)’:
+julian.cpp:115:12: error: invalid abstract return type for member function ‘lab2::Julian lab2::Julian::operator++(int)’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp:117:15: error: cannot declare variable ‘source’ to be of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp:119:15: error: cannot allocate an object of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp: In member function ‘lab2::Julian lab2::Julian::operator--(int)’:
+julian.cpp:122:12: error: invalid abstract return type for member function ‘lab2::Julian lab2::Julian::operator--(int)’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp:124:15: error: cannot declare variable ‘source’ to be of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+julian.cpp:126:15: error: cannot allocate an object of abstract type ‘lab2::Julian’
+julian.h:40:9: note:   since type ‘lab2::Julian’ has pure virtual functions
+make: *** [testjulian] Error 1
+

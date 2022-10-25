@@ -1,0 +1,38 @@
+MOD = vector main hypercube
+
+SRC = $(MOD:=.cpp)
+HDR = $(MOD:=.h)
+OBJ = $(MOD:=.o)
+
+BACKUP = $(SRC) $(HDR)
+
+FLDR = lab1x4
+
+#CFLAG = -c -DDHYPER -Wall -ftemplate-depth-1337
+CFLAG = -c -Wall 
+LFLAG =
+
+CTEST = -DCAL # recompiles main.cpp if makefile is updated
+
+all:
+	make lab1x4
+
+lab1x4 : $(OBJ) makefile
+	g++ $(OBJ) -o lab1x4
+
+vector.o : vector.cpp vector.h makefile
+	g++ $(CFLAG) $(CTEST) vector.cpp
+
+hypercube.o : hypercube.cpp hypercube.h makefile
+	g++ $(CFLAG) $(CTEST) hypercube.cpp
+
+main.o : main.cpp makefile
+	g++ $(CFLAG) $(CTEST) main.cpp
+
+clean:
+	rm -f *.o lab1x4
+
+run:
+	./lab1x4
+
+

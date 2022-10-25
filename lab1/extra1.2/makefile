@@ -1,0 +1,36 @@
+MOD = vector matrix maze
+
+SRC = $(MOD:=.cpp)
+HDR = $(MOD:=.h)
+OBJ = $(MOD:=.o)
+
+BACKUP = $(SRC) $(HDR)
+
+FLDR = lab1x2
+
+CFLAG = -c -DDMATRIX -Wall
+LFLAG =
+
+
+all:
+	make lab1x2
+
+lab1x% : $(OBJ) makefile
+	g++ $(OBJ) -o lab1x$*
+
+vector.o : vector.cpp vector.h makefile
+	g++ $(CFLAG) vector.cpp
+
+matrix.o : matrix.cpp matrix.h makefile
+	g++ $(CFLAG) matrix.cpp
+
+maze.o : maze.cpp makefile
+	g++ $(CFLAG) maze.cpp
+
+clean:
+	rm -f *.o lab1x2
+
+run:
+	./lab1x2
+
+

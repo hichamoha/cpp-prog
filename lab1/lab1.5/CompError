@@ -1,0 +1,34 @@
+Error message:
+In file included from cprog09lab15.cpp:8:0:
+ vector.h: In constructor Vector<T>::Vector(size_t, T) [with T = int, size_t = unsigned int]:
+ cprog09lab15.cpp:38:7: instantiated from void {anonymous}::VectorTester<T>::handle() [with T = int]
+ cprog09lab15.cpp:198:15: instantiated from here
+ vector.h:242:66: error: argument of type size_t (Vector<int>::)()const {aka unsigned int (Vector<int>::)()const} does not match size_t {aka unsigned int}
+ vector.h:244:3: error: invalid use of member (did you forget the & ?)
+ vector.h:247:6: error: size in array new must have integral type [-fpermissive]
+ vector.h:247:6: error: aggregate value used where an integer was expected
+ vector.h:256:17: error: invalid use of member (did you forget the & ?)
+ vector.h: In constructor Vector<T>::Vector(size_t, T) [with T = unsigned int, size_t = unsigned int]:
+ cprog09lab15.cpp:38:7: instantiated from void {anonymous}::VectorTester<T>::handle() [with T = unsigned int]
+ cprog09lab15.cpp:201:15: instantiated from here
+ vector.h:242:66: error: argument of type size_t (Vector<unsigned int>::)()const {aka unsigned int (Vector<unsigned int>::)()const} does not match size_t {aka unsigned int}
+ vector.h:244:3: error: invalid use of member (did you forget the & ?)
+ vector.h:247:6: error: size in array new must have integral type [-fpermissive]
+ vector.h:247:6: error: aggregate value used where an integer was expected
+ vector.h:256:17: error: invalid use of member (did you forget the & ?)
+ vector.h: In constructor Vector<T>::Vector(size_t, T) [with T = std::basic_string<char>, size_t = unsigned int]:
+ cprog09lab15.cpp:38:7: instantiated from void {anonymous}::VectorTester<T>::handle() [with T = std::basic_string<char>]
+ cprog09lab15.cpp:204:15: instantiated from here
+ vector.h:242:66: error: argument of type size_t (Vector<std::basic_string<char> >::)()const {aka unsigned int (Vector<std::basic_string<char> >::)()const} does not match size_t {aka unsigned int}
+ vector.h:244:3: error: invalid use of member (did you forget the & ?)
+ vector.h:247:6: error: size in array new must have integral type [-fpermissive]
+ vector.h:247:6: error: aggregate value used where an integer was expected
+ vector.h:256:17: error: invalid use of member (did you forget the & ?)
+ vector.h: In constructor Vector<T>::Vector(size_t, T) [with T = {anonymous}::Problematic, size_t = unsigned int]:
+ cprog09lab15.cpp:38:7: instantiated from void {anonymous}::VectorTester<T>::handle() [with T = {anonymous}::Problematic]
+ cprog09lab15.cpp:207:15: instantiated from here
+ vector.h:242:66: error: argument of type size_t (Vector<{anonymous}::Problematic>::)()const {aka unsigned int (Vector<{anonymous}::Problematic>::)()const} does not match size_t {aka unsigned int}
+ vector.h:244:3: error: invalid use of member (did you forget the & ?)
+ vector.h:247:6: error: size in array new must have integral type [-fpermissive]
+ vector.h:247:6: error: aggregate value used where an integer was expected
+ vector.h:256:17: error: invalid use of member (did you forget the & ?)

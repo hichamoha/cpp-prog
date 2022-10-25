@@ -1,0 +1,25 @@
+ACT0:DragonFactory:Dragon factory:current_room=2,container=1,hp=1000,strength=0,frequency=2,age=3:OBJ1
+OBJ1:Gold bag::17kg,50liter,100kr
+ACT1:Player:Merlin:current_room=2,container=10,hp=100,strength=2,has_heart=0,max_health=500:OBJ10
+OBJ10:Gold bag:OBJ7:17kg,50liter,100kr
+OBJ7:Key (cave):1kg,1liter,50kr
+ACT2:Goblin:The angry Goblin:current_room=2,container=12,hp=1000,strength=88:OBJ12
+OBJ12:Gold bag::17kg,50liter,100kr
+ACT3:Wizard:Lady Morgana:current_room=2,container=14,hp=150,strength=3,has_heart=1,max_health=100,magic=100,max_magic=100:OBJ14
+OBJ14:Gold bag::17kg,50liter,100kr
+ACT4:Dragon:Aithusa:current_room=2,container=18,hp=6,strength=4:OBJ18
+OBJ18:Gold bag::17kg,50liter,100kr
+ENV0:OBJ2,OBJ3,OBJ4::EXI2=east,EXI1=west
+OBJ2:Gold bag::17kg,50liter,100kr
+OBJ3:Gold bag::17kg,50liter,100kr
+OBJ4:Gold bag::17kg,50liter,100kr
+EXI2:ENV2:has_lock=1,key_code=cave,locked=false,description=,env_desc=east
+EXI1:ENV1:has_lock=0,key_code=,locked=false,description=,env_desc=west
+ENV1:OBJ5::EXI2=west
+OBJ5:Mat:5kg,16liter,94kr,47food
+EXI2:ENV2:has_lock=1,key_code=cave,locked=false,description=,env_desc=west
+ENV2:OBJ8,OBJ6:ACT0,ACT3,ACT4,ACT1,ACT2:EXI1=east,EXI0=west
+OBJ8:Excalibur:5kg,5liter,1000kr,1000strength,0.95ratio
+OBJ6:Key (e1):1kg,1liter,50kr
+EXI1:ENV1:has_lock=0,key_code=,locked=false,description=,env_desc=east
+EXI0:ENV0:has_lock=1,key_code=e1,locked=true,description=,env_desc=west

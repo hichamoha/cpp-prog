@@ -1,0 +1,2624 @@
+L1:C g;set_k_time 1593466123
+L2:Cg0 created
+L3:Cj0 created
+L4:Cj0;setdate(4, 11, 2010):1
+L5:Cg0;setdate(4, 11, 2010):1
+L6:Cj0;add_event(qrvdSit, 18, 3, 2019):1
+L7:Cg0;add_event(qrvdSit, 18, 3, 2019):1
+L8:Cg0;setdate(4, 4, 1990):1
+L9:Cj0;setdate(4, 4, 1990):1
+L10:Cg0;add_event(gJZAClz, 23):1
+L11:Cj0;add_event(gJZAClz, 23):1
+L12:Cj0;setdate(3, 6, 2022):1
+L13:Cg0;setdate(3, 6, 2022):1
+L14:Cg0;add_event(bmfXZwW, 1, 6):1
+L15:Cj0;add_event(bmfXZwW, 1, 6):1
+L16:Cj0;setdate(28, 10, 2033):1
+L17:Cg0;setdate(28, 10, 2033):1
+L18:Cg0;add_event(SQTGPfy, 19, 10, 1996):1
+L19:Cj0;add_event(SQTGPfy, 19, 10, 1996):1
+L20:Cj0;setdate(1, 4, 2038):1
+L21:Cg0;setdate(1, 4, 2038):1
+L22:Cg0;add_event(WMfscoZ, 18, 12, 1985):1
+L23:Cj0;add_event(WMfscoZ, 18, 12, 1985):1
+L24:Cg0;setdate(22, 5, 2000):1
+L25:Cj0;setdate(22, 5, 2000):1
+L26:Cg0;add_event(trcZfIA, 23):1
+L27:Cj0;add_event(trcZfIA, 23):1
+L28:Cg0;setdate(24, 5, 2006):1
+L29:Cj0;setdate(24, 5, 2006):1
+L30:Cj0;add_event(JPYTxIK, 24):1
+L31:Cg0;add_event(JPYTxIK, 24):1
+L32:Cg0;setdate(10, 4, 2012):1
+L33:Cj0;setdate(10, 4, 2012):1
+L34:Cj0;add_event(phfUioM, 27):1
+L35:Cg0;add_event(phfUioM, 27):1
+L36:Cg0;setdate(18, 7, 1972):1
+L37:Cj0;setdate(18, 7, 1972):1
+L38:Cj0;add_event(ZmnSLWd, 12):1
+L39:Cg0;add_event(ZmnSLWd, 12):1
+L40:Cj0;setdate(17, 5, 2002):1
+L41:Cg0;setdate(17, 5, 2002):1
+L42:Cj0;add_event(lLEzIVC, 8, 8, 2021):1
+L43:Cg0;add_event(lLEzIVC, 8, 8, 2021):1
+L44:Cj0;setdate(27, 2, 1900):1
+L45:Cg0;setdate(27, 2, 1900):1
+L46:Cj0;add_event(wUSCkHu, 29):1
+L47:Cg0;add_event(wUSCkHu, 29):0
+L48:Cj0;setdate(29, 2, 1901):0
+L49:Cg0;setdate(29, 2, 1901):0
+L50:Cg0;add_event(YlMktaf):1
+L51:Cj0;add_event(YlMktaf):1
+L52:Cg0;setdate(1, 3, 2000):1
+L53:Cj0;setdate(1, 3, 2000):1
+L54:Cj0;add_event(TjYcOzN, 29, 2):1
+L55:Cg0;add_event(TjYcOzN, 29, 2):1
+L56:Cg0;setdate(10, 6, 2028):1
+L57:Cj0;setdate(10, 6, 2028):1
+L58:Cj0;add_event(fDjJcTS, 29, 2, 1900):1
+L59:Cg0;add_event(fDjJcTS, 29, 2, 1900):0
+L60:Cg0;setdate(7, 10, 1901):1
+L61:Cj0;setdate(7, 10, 1901):1
+L62:Cg0;add_event(sPOTcXG, 29, 2):0
+L63:Cj0;add_event(sPOTcXG, 29, 2):0
+L64:Cj0;setdate(22, 6, 2000):1
+L65:Cg0;setdate(22, 6, 2000):1
+L66:Cg0;add_event(LHkZvRr, 29, 2):1
+L67:Cj0;add_event(LHkZvRr, 29, 2):1
+L68:Cg0;setdate(29, 2, 1900):0
+L69:Cj0;setdate(29, 2, 1900):1
+L70:Cj0;add_event(lNKPxrY):1
+L71:Cg0;add_event(lNKPxrY):1
+L72:Cg0;setdate(29, 2, 1901):0
+L73:Cj0;setdate(29, 2, 1901):0
+L74:Cj0;add_event(VIzJGas):1
+L75:Cg0;add_event(VIzJGas):1
+L76:Cg0;setdate(23, 7, 2000):1
+L77:Cj0;setdate(23, 7, 2000):1
+L78:Cj0;add_event(iIujqZg, 29, 2):1
+L79:Cg0;add_event(iIujqZg, 29, 2):1
+L80:Cj0;setdate(29, 2, 1900):1
+L81:Cg0;setdate(29, 2, 1900):0
+L82:Cg0;add_event(UVSJkvo):1
+L83:Cj0;add_event(UVSJkvo):1
+L84:Cg0;setdate(29, 2, 1901):0
+L85:Cj0;setdate(29, 2, 1901):0
+L86:Cg0;add_event(VinhFxs):1
+L87:Cj0;add_event(VinhFxs):1
+L88:Cj0;setdate(26, 2, 2013):1
+L89:Cg0;setdate(26, 2, 2013):1
+L90:Cg0;add_event(RTYvAeV, 29, 2, 2000):1
+L91:Cj0;add_event(RTYvAeV, 29, 2, 2000):1
+L92:Cj0;setdate(1, 1, 1900):1
+L93:Cg0;setdate(1, 1, 1900):1
+L94:Cj0;setdate(29, 2, 1900):1
+L95:Cg0;setdate(29, 2, 1900):0
+L96: Cj0;print
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L97: Cg0;print
+1900-02-27 : YlMktaf
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L98:Cj0;setdate(1, 1, 1900):1
+L99:Cg0;setdate(1, 1, 1900):1
+L100: Cj0;print
+1900-02-27 : YlMktaf
+1900-02-29 : wUSCkHu
+1900-02-29 : fDjJcTS
+1900-02-29 : lNKPxrY
+1900-02-29 : VIzJGas
+1900-02-29 : UVSJkvo
+1900-02-29 : VinhFxs
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L101: Cg0;print
+1900-02-27 : YlMktaf
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L102:Cj0;setdate(5, 5, 1900):1
+L103:Cg0;setdate(5, 5, 1900):1
+L104:Cj0;remove_event(wUSCkHu, 29, 2):1
+L105:Cg0;remove_event(wUSCkHu, 29, 2):0
+L106:Cj0;setdate(20, 7, 1983):1
+L107:Cg0;setdate(20, 7, 1983):1
+L108:Cj0;remove_event(YlMktaf, 29, 2, 1901):0
+L109:Cg0;remove_event(YlMktaf, 29, 2, 1901):0
+L110:Cg0;setdate(29, 2, 1900):0
+L111:Cj0;setdate(29, 2, 1900):1
+L112:Cj0;remove_event(UVSJkvo):1
+L113:Cg0;remove_event(UVSJkvo):0
+L114:Cj0;setdate(1, 1, 1900):1
+L115:Cg0;setdate(1, 1, 1900):1
+L116:Cj0;setdate(29, 2, 1900):1
+L117:Cg0;setdate(29, 2, 1900):0
+L118: Cg0;print
+1900-02-27 : YlMktaf
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L119: Cj0;print
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L120:Cj0;setdate(1, 1, 1900):1
+L121:Cg0;setdate(1, 1, 1900):1
+L122: Cj0;print
+1900-02-27 : YlMktaf
+1900-02-29 : fDjJcTS
+1900-02-29 : lNKPxrY
+1900-02-29 : VIzJGas
+1900-02-29 : VinhFxs
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L123: Cg0;print
+1900-02-27 : YlMktaf
+1972-07-12 : ZmnSLWd
+1985-12-18 : WMfscoZ
+1990-04-23 : gJZAClz
+1996-10-19 : SQTGPfy
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+L124:Cj0(0x)
+L125:Cg0(0x)
+L126:Cg0 deleted
+L127:Cj0 deleted
+L128:Cg1;setdate(24, 5, 1978):1
+L129:Cj1;setdate(24, 5, 1978):1
+L130:Cj1;add_event(xtYLCAh, 2, 9):1
+L131:Cg1;add_event(xtYLCAh, 2, 9):1
+L132:Cj1;setdate(14, 3, 2019):1
+L133:Cg1;setdate(14, 3, 2019):1
+L134:Cg1;add_event(DvNXwjc, 15, 5, 1987):1
+L135:Cj1;add_event(DvNXwjc, 15, 5, 1987):1
+L136:Cg1;setdate(7, 3, 2028):1
+L137:Cj1;setdate(7, 3, 2028):1
+L138:Cj1;add_event(fQvurql, 24, 10, 1979):1
+L139:Cg1;add_event(fQvurql, 24, 10, 1979):1
+L140:Cj1;setdate(3, 2, 1984):1
+L141:Cg1;setdate(3, 2, 1984):1
+L142:Cj1;add_event(QLkjIdz, 21, 12):1
+L143:Cg1;add_event(QLkjIdz, 21, 12):1
+L144:Cg1;setdate(19, 6, 1985):1
+L145:Cj1;setdate(19, 6, 1985):1
+L146:Cg1;add_event(NaMRuLn):1
+L147:Cj1;add_event(NaMRuLn):1
+L148:Cg1;setdate(23, 1, 1975):1
+L149:Cj1;setdate(23, 1, 1975):1
+L150:Cg1;add_event(hcIYFjD, 6, 1, 2027):1
+L151:Cj1;add_event(hcIYFjD, 6, 1, 2027):1
+L152:Cj1;setdate(6, 5, 2002):1
+L153:Cg1;setdate(6, 5, 2002):1
+L154:Cj1;add_event(BybWFLN):1
+L155:Cg1;add_event(BybWFLN):1
+L156:Cg1;setdate(27, 9, 1997):1
+L157:Cj1;setdate(27, 9, 1997):1
+L158:Cg1;add_event(RMGypDl, 24, 12):1
+L159:Cj1;add_event(RMGypDl, 24, 12):1
+L160:Cg1;setdate(4, 4, 2026):1
+L161:Cj1;setdate(4, 4, 2026):1
+L162:Cj1;add_event(CmLIfYK, 13, 1, 2033):1
+L163:Cg1;add_event(CmLIfYK, 13, 1, 2033):1
+L164:Cj1;setdate(8, 1, 2018):1
+L165:Cg1;setdate(8, 1, 2018):1
+L166:Cj1;add_event(PwMckTX, 3, 8, 1997):1
+L167:Cg1;add_event(PwMckTX, 3, 8, 1997):1
+L168:Cg1;setdate(29, 2, 1900):0
+L169:Cj1;setdate(29, 2, 1900):1
+L170:Cg1;add_event(dCikJXf):1
+L171:Cj1;add_event(dCikJXf):1
+L172:Cg1;setdate(9, 2, 1901):1
+L173:Cj1;setdate(9, 2, 1901):1
+L174:Cg1;add_event(yOHNljq, 29):0
+L175:Cj1;add_event(yOHNljq, 29):0
+L176:Cg1;setdate(29, 2, 2000):1
+L177:Cj1;setdate(29, 2, 2000):1
+L178:Cj1;add_event(MVlrgmX):1
+L179:Cg1;add_event(MVlrgmX):1
+L180:Cj1;setdate(1, 4, 2038):1
+L181:Cg1;setdate(1, 4, 2038):1
+L182:Cj1;add_event(gxlHdKL, 29, 2, 1900):1
+L183:Cg1;add_event(gxlHdKL, 29, 2, 1900):0
+L184:Cg1;setdate(2, 2, 1901):1
+L185:Cj1;setdate(2, 2, 1901):1
+L186:Cg1;add_event(tVrqPiN, 29):0
+L187:Cj1;add_event(tVrqPiN, 29):0
+L188:Cg1;setdate(29, 2, 2000):1
+L189:Cj1;setdate(29, 2, 2000):1
+L190:Cj1;add_event(LfgFuDr):1
+L191:Cg1;add_event(LfgFuDr):1
+L192:Cg1;setdate(19, 8, 1977):1
+L193:Cj1;setdate(19, 8, 1977):1
+L194:Cg1;add_event(ZNxnVsM, 29, 2, 1900):0
+L195:Cj1;add_event(ZNxnVsM, 29, 2, 1900):1
+L196:Cj1;setdate(16, 2, 1901):1
+L197:Cg1;setdate(16, 2, 1901):1
+L198:Cj1;add_event(EJCwjmu, 29):0
+L199:Cg1;add_event(EJCwjmu, 29):0
+L200:Cj1;setdate(19, 2, 2000):1
+L201:Cg1;setdate(19, 2, 2000):1
+L202:Cg1;add_event(kGxnAXW, 29, 2):1
+L203:Cj1;add_event(kGxnAXW, 29, 2):1
+L204:Cg1;setdate(29, 2, 1900):0
+L205:Cj1;setdate(29, 2, 1900):1
+L206:Cg1;add_event(utrgYvQ):1
+L207:Cj1;add_event(utrgYvQ):1
+L208:Cg1;setdate(20, 5, 1978):1
+L209:Cj1;setdate(20, 5, 1978):1
+L210:Cj1;add_event(zWPCcwV, 29, 2, 1901):0
+L211:Cg1;add_event(zWPCcwV, 29, 2, 1901):0
+L212:Cg1;setdate(28, 2, 2000):1
+L213:Cj1;setdate(28, 2, 2000):1
+L214:Cj1;add_event(pYxkiVz, 29):1
+L215:Cg1;add_event(pYxkiVz, 29):1
+L216:Cg1;setdate(1, 1, 1900):1
+L217:Cj1;setdate(1, 1, 1900):1
+L218:Cj1;setdate(29, 2, 1900):1
+L219:Cg1;setdate(29, 2, 1900):0
+L220: Cg1;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1972-07-25 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1984-12-21 : QLkjIdz
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-05-06 : gJZAClz
+1996-11-01 : SQTGPfy
+1997-08-03 : PwMckTX
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : MVlrgmX
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-03-13 : TjYcOzN
+2000-03-13 : LHkZvRr
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2006-06-06 : JPYTxIK
+2012-05-10 : phfUioM
+2018-01-08 : dCikJXf
+2019-03-31 : qrvdSit
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L221: Cj1;print
+1972-06-29 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1984-12-21 : QLkjIdz
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1996-10-06 : SQTGPfy
+1997-08-03 : PwMckTX
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : LHkZvRr
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-29 : MVlrgmX
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2006-05-11 : JPYTxIK
+2012-04-14 : phfUioM
+2019-03-05 : qrvdSit
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L222:Cj1;setdate(1, 1, 1900):1
+L223:Cg1;setdate(1, 1, 1900):1
+L224: Cg1;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1972-07-25 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1984-12-21 : QLkjIdz
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-05-06 : gJZAClz
+1996-11-01 : SQTGPfy
+1997-08-03 : PwMckTX
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : MVlrgmX
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-03-13 : TjYcOzN
+2000-03-13 : LHkZvRr
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2006-06-06 : JPYTxIK
+2012-05-10 : phfUioM
+2018-01-08 : dCikJXf
+2019-03-31 : qrvdSit
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L225: Cj1;print
+1900-02-15 : YlMktaf
+1900-02-29 : dCikJXf
+1900-02-29 : gxlHdKL
+1900-02-29 : ZNxnVsM
+1900-02-29 : utrgYvQ
+1972-06-29 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1984-12-21 : QLkjIdz
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1996-10-06 : SQTGPfy
+1997-08-03 : PwMckTX
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : LHkZvRr
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-29 : MVlrgmX
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2006-05-11 : JPYTxIK
+2012-04-14 : phfUioM
+2019-03-05 : qrvdSit
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L226:Cj1;setdate(26, 3, 2019):1
+L227:Cg1;setdate(26, 3, 2019):1
+L228:Cj1;remove_event(qrvdSit, 18):0
+L229:Cg1;remove_event(qrvdSit, 18):0
+L230:Cg1;setdate(3, 2, 2000):1
+L231:Cj1;setdate(3, 2, 2000):1
+L232:Cj1;remove_event(TjYcOzN, 29):0
+L233:Cg1;remove_event(TjYcOzN, 29):0
+L234:Cj1;setdate(4, 9, 1980):1
+L235:Cg1;setdate(4, 9, 1980):1
+L236:Cg1;remove_event(LHkZvRr, 29, 2, 2000):0
+L237:Cj1;remove_event(LHkZvRr, 29, 2, 2000):0
+L238:Cg1;setdate(11, 5, 1984):1
+L239:Cj1;setdate(11, 5, 1984):1
+L240:Cg1;remove_event(QLkjIdz, 21, 12):1
+L241:Cj1;remove_event(QLkjIdz, 21, 12):1
+L242:Cj1;setdate(3, 8, 1997):1
+L243:Cg1;setdate(3, 8, 1997):1
+L244:Cj1;remove_event(PwMckTX):1
+L245:Cg1;remove_event(PwMckTX):1
+L246:Cg1;setdate(19, 7, 1995):1
+L247:Cj1;setdate(19, 7, 1995):1
+L248:Cg1;remove_event(MVlrgmX, 29, 2, 2000):1
+L249:Cj1;remove_event(MVlrgmX, 29, 2, 2000):1
+L250:Cg1;setdate(23, 2, 1900):1
+L251:Cj1;setdate(23, 2, 1900):1
+L252:Cg1;remove_event(ZNxnVsM, 29):0
+L253:Cj1;remove_event(ZNxnVsM, 29):1
+L254:Cj1;setdate(1, 1, 1900):1
+L255:Cg1;setdate(1, 1, 1900):1
+L256:Cg1;setdate(29, 2, 1900):0
+L257:Cj1;setdate(29, 2, 1900):1
+L258: Cj1;print
+1972-06-29 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1996-10-06 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : LHkZvRr
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2006-05-11 : JPYTxIK
+2012-04-14 : phfUioM
+2019-03-05 : qrvdSit
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L259: Cg1;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1972-07-25 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-05-06 : gJZAClz
+1996-11-01 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-03-13 : TjYcOzN
+2000-03-13 : LHkZvRr
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2006-06-06 : JPYTxIK
+2012-05-10 : phfUioM
+2018-01-08 : dCikJXf
+2019-03-31 : qrvdSit
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L260:Cj1;setdate(1, 1, 1900):1
+L261:Cg1;setdate(1, 1, 1900):1
+L262: Cj1;print
+1900-02-15 : YlMktaf
+1900-02-29 : dCikJXf
+1900-02-29 : gxlHdKL
+1900-02-29 : utrgYvQ
+1972-06-29 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1996-10-06 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : LHkZvRr
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2006-05-11 : JPYTxIK
+2012-04-14 : phfUioM
+2019-03-05 : qrvdSit
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L263: Cg1;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1972-07-25 : ZmnSLWd
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-05-15 : DvNXwjc
+1990-05-06 : gJZAClz
+1996-11-01 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-03-13 : TjYcOzN
+2000-03-13 : LHkZvRr
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2006-06-06 : JPYTxIK
+2012-05-10 : phfUioM
+2018-01-08 : dCikJXf
+2019-03-31 : qrvdSit
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+L264:Cg1(1x)
+L265:Cj1(1x)
+L266:Cg1 deleted
+L267:Cj1 deleted
+L268:Cg2;setdate(15, 6, 1976):1
+L269:Cj2;setdate(15, 6, 1976):1
+L270:Cj2;add_event(pJliNDF, 9, 5, 2016):1
+L271:Cg2;add_event(pJliNDF, 9, 5, 2016):1
+L272:Cj2;setdate(1, 3, 1995):1
+L273:Cg2;setdate(1, 3, 1995):1
+L274:Cj2;add_event(OCfgRTJ, 22, 2):1
+L275:Cg2;add_event(OCfgRTJ, 22, 2):1
+L276:Cg2;setdate(19, 5, 1973):1
+L277:Cj2;setdate(19, 5, 1973):1
+L278:Cj2;add_event(uMLwSFD):1
+L279:Cg2;add_event(uMLwSFD):1
+L280:Cj2;setdate(14, 3, 1996):1
+L281:Cg2;setdate(14, 3, 1996):1
+L282:Cj2;add_event(uEFYTBG):1
+L283:Cg2;add_event(uEFYTBG):1
+L284:Cg2;setdate(23, 9, 1974):1
+L285:Cj2;setdate(23, 9, 1974):1
+L286:Cg2;add_event(WCqREXH):1
+L287:Cj2;add_event(WCqREXH):1
+L288:Cg2;setdate(27, 12, 2022):1
+L289:Cj2;setdate(27, 12, 2022):1
+L290:Cj2;add_event(DtAlBNJ):1
+L291:Cg2;add_event(DtAlBNJ):1
+L292:Cg2;setdate(16, 8, 2005):1
+L293:Cj2;setdate(16, 8, 2005):1
+L294:Cg2;add_event(MvDeyPH, 1, 6):1
+L295:Cj2;add_event(MvDeyPH, 1, 6):1
+L296:Cj2;setdate(12, 7, 2028):1
+L297:Cg2;setdate(12, 7, 2028):1
+L298:Cj2;add_event(OJjTEbN, 20, 11, 1972):1
+L299:Cg2;add_event(OJjTEbN, 20, 11, 1972):1
+L300:Cg2;setdate(6, 11, 2037):1
+L301:Cj2;setdate(6, 11, 2037):1
+L302:Cj2;add_event(KTWMjhz):1
+L303:Cg2;add_event(KTWMjhz):1
+L304:Cg2;setdate(19, 5, 2037):1
+L305:Cj2;setdate(19, 5, 2037):1
+L306:Cg2;add_event(VrkIDEK, 18, 7):1
+L307:Cj2;add_event(VrkIDEK, 18, 7):1
+L308:Cg2;setdate(29, 2, 1900):0
+L309:Cj2;setdate(29, 2, 1900):1
+L310:Cj2;add_event(pwBnUhx):1
+L311:Cg2;add_event(pwBnUhx):1
+L312:Cj2;setdate(20, 8, 1981):1
+L313:Cg2;setdate(20, 8, 1981):1
+L314:Cj2;add_event(DXkaHYJ, 29, 2, 1901):0
+L315:Cg2;add_event(DXkaHYJ, 29, 2, 1901):0
+L316:Cj2;setdate(29, 2, 2000):1
+L317:Cg2;setdate(29, 2, 2000):1
+L318:Cg2;add_event(KmplTEc):1
+L319:Cj2;add_event(KmplTEc):1
+L320:Cj2;setdate(29, 2, 1900):1
+L321:Cg2;setdate(29, 2, 1900):0
+L322:Cj2;add_event(mXkTsoH):1
+L323:Cg2;add_event(mXkTsoH):1
+L324:Cj2;setdate(29, 2, 1901):0
+L325:Cg2;setdate(29, 2, 1901):0
+L326:Cg2;add_event(pflGTJP):1
+L327:Cj2;add_event(pflGTJP):1
+L328:Cj2;setdate(28, 2, 2000):1
+L329:Cg2;setdate(28, 2, 2000):1
+L330:Cj2;add_event(PhzHXsm, 29, 2):1
+L331:Cg2;add_event(PhzHXsm, 29, 2):1
+L332:Cg2;setdate(26, 1, 1998):1
+L333:Cj2;setdate(26, 1, 1998):1
+L334:Cg2;add_event(CLbtloM, 29, 2, 1900):0
+L335:Cj2;add_event(CLbtloM, 29, 2, 1900):1
+L336:Cg2;setdate(14, 7, 1985):1
+L337:Cj2;setdate(14, 7, 1985):1
+L338:Cg2;add_event(ofiHVMY, 29, 2, 1901):0
+L339:Cj2;add_event(ofiHVMY, 29, 2, 1901):0
+L340:Cg2;setdate(29, 2, 2000):1
+L341:Cj2;setdate(29, 2, 2000):1
+L342:Cj2;add_event(WucUiCH):1
+L343:Cg2;add_event(WucUiCH):1
+L344:Cg2;setdate(3, 6, 1970):1
+L345:Cj2;setdate(3, 6, 1970):1
+L346:Cg2;add_event(NhSWTyH, 29, 2, 1900):0
+L347:Cj2;add_event(NhSWTyH, 29, 2, 1900):1
+L348:Cj2;setdate(29, 2, 1901):0
+L349:Cg2;setdate(29, 2, 1901):0
+L350:Cj2;add_event(OjwMkeG):1
+L351:Cg2;add_event(OjwMkeG):1
+L352:Cg2;setdate(29, 2, 2000):1
+L353:Cj2;setdate(29, 2, 2000):1
+L354:Cj2;add_event(lINHsPa):1
+L355:Cg2;add_event(lINHsPa):1
+L356:Cg2;setdate(1, 1, 1900):1
+L357:Cj2;setdate(1, 1, 1900):1
+L358:Cg2;setdate(29, 2, 1900):0
+L359:Cj2;setdate(29, 2, 1900):1
+L360: Cj2;print
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1972-11-20 : OJjTEbN
+1973-05-19 : uMLwSFD
+1974-09-23 : WCqREXH
+1978-08-20 : xtYLCAh
+1979-10-11 : fQvurql
+1985-06-06 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-02 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : PhzHXsm
+2000-02-29 : WucUiCH
+2000-02-29 : lINHsPa
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L361: Cg2;print
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : gxlHdKL
+1900-03-13 : utrgYvQ
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1972-11-20 : OJjTEbN
+1973-05-19 : uMLwSFD
+1974-09-23 : WCqREXH
+1978-09-15 : xtYLCAh
+1979-11-06 : fQvurql
+1985-07-02 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-02-29 : WucUiCH
+2000-02-29 : lINHsPa
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L362:Cg2;setdate(1, 1, 1900):1
+L363:Cj2;setdate(1, 1, 1900):1
+L364: Cj2;print
+1900-02-27 : YlMktaf
+1900-02-29 : fDjJcTS
+1900-02-29 : lNKPxrY
+1900-02-29 : VIzJGas
+1900-02-29 : VinhFxs
+1900-02-29 : pwBnUhx
+1900-02-29 : mXkTsoH
+1900-02-29 : pflGTJP
+1900-02-29 : CLbtloM
+1900-02-29 : NhSWTyH
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1972-11-20 : OJjTEbN
+1973-05-19 : uMLwSFD
+1974-09-23 : WCqREXH
+1978-08-20 : xtYLCAh
+1979-10-11 : fQvurql
+1985-06-06 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-02 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : PhzHXsm
+2000-02-29 : WucUiCH
+2000-02-29 : lINHsPa
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L365: Cg2;print
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : gxlHdKL
+1900-03-13 : utrgYvQ
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1972-11-20 : OJjTEbN
+1973-05-19 : uMLwSFD
+1974-09-23 : WCqREXH
+1978-09-15 : xtYLCAh
+1979-11-06 : fQvurql
+1985-07-02 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : LHkZvRr
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-02-29 : WucUiCH
+2000-02-29 : lINHsPa
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2019-03-18 : qrvdSit
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L366:Cg2;setdate(15, 3, 2019):1
+L367:Cj2;setdate(15, 3, 2019):1
+L368:Cg2;remove_event(qrvdSit, 18):1
+L369:Cj2;remove_event(qrvdSit, 18):1
+L370:Cj2;setdate(4, 2, 1900):1
+L371:Cg2;setdate(4, 2, 1900):1
+L372:Cg2;remove_event(wUSCkHu, 29):0
+L373:Cj2;remove_event(wUSCkHu, 29):0
+L374:Cj2;setdate(26, 11, 2004):1
+L375:Cg2;setdate(26, 11, 2004):1
+L376:Cg2;remove_event(YlMktaf, 29, 2, 1901):0
+L377:Cj2;remove_event(YlMktaf, 29, 2, 1901):0
+L378:Cj2;setdate(3, 8, 2036):1
+L379:Cg2;setdate(3, 8, 2036):1
+L380:Cg2;remove_event(sPOTcXG, 29, 2, 1901):0
+L381:Cj2;remove_event(sPOTcXG, 29, 2, 1901):0
+L382:Cj2;setdate(9, 2, 2000):1
+L383:Cg2;setdate(9, 2, 2000):1
+L384:Cg2;remove_event(LHkZvRr, 29):1
+L385:Cj2;remove_event(LHkZvRr, 29):1
+L386:Cg2;setdate(1, 2, 1900):1
+L387:Cj2;setdate(1, 2, 1900):1
+L388:Cg2;remove_event(UVSJkvo, 29):0
+L389:Cj2;remove_event(UVSJkvo, 29):0
+L390:Cg2;setdate(15, 5, 1987):1
+L391:Cj2;setdate(15, 5, 1987):1
+L392:Cj2;remove_event(DvNXwjc):0
+L393:Cg2;remove_event(DvNXwjc):0
+L394:Cg2;setdate(12, 11, 1979):1
+L395:Cj2;setdate(12, 11, 1979):1
+L396:Cg2;remove_event(fQvurql, 24, 10):0
+L397:Cj2;remove_event(fQvurql, 24, 10):0
+L398:Cg2;setdate(17, 12, 1984):1
+L399:Cj2;setdate(17, 12, 1984):1
+L400:Cj2;remove_event(QLkjIdz, 21):0
+L401:Cg2;remove_event(QLkjIdz, 21):0
+L402:Cj2;setdate(29, 2, 1901):0
+L403:Cg2;setdate(29, 2, 1901):0
+L404:Cg2;remove_event(tVrqPiN):0
+L405:Cj2;remove_event(tVrqPiN):0
+L406:Cj2;setdate(23, 5, 1981):1
+L407:Cg2;setdate(23, 5, 1981):1
+L408:Cg2;remove_event(ZNxnVsM, 29, 2, 1900):0
+L409:Cj2;remove_event(ZNxnVsM, 29, 2, 1900):0
+L410:Cg2;setdate(21, 3, 1974):1
+L411:Cj2;setdate(21, 3, 1974):1
+L412:Cg2;remove_event(WCqREXH, 23, 9):1
+L413:Cj2;remove_event(WCqREXH, 23, 9):1
+L414:Cg2;setdate(5, 7, 1997):1
+L415:Cj2;setdate(5, 7, 1997):1
+L416:Cg2;remove_event(OJjTEbN, 20, 11, 1972):1
+L417:Cj2;remove_event(OJjTEbN, 20, 11, 1972):1
+L418:Cj2;setdate(4, 12, 2026):1
+L419:Cg2;setdate(4, 12, 2026):1
+L420:Cj2;remove_event(pflGTJP, 29, 2, 1901):0
+L421:Cg2;remove_event(pflGTJP, 29, 2, 1901):0
+L422:Cj2;setdate(2, 11, 2031):1
+L423:Cg2;setdate(2, 11, 2031):1
+L424:Cg2;remove_event(CLbtloM, 29, 2, 1900):0
+L425:Cj2;remove_event(CLbtloM, 29, 2, 1900):1
+L426:Cj2;setdate(29, 2, 2000):1
+L427:Cg2;setdate(29, 2, 2000):1
+L428:Cj2;remove_event(WucUiCH):1
+L429:Cg2;remove_event(WucUiCH):1
+L430:Cg2;setdate(29, 2, 1900):0
+L431:Cj2;setdate(29, 2, 1900):1
+L432:Cj2;remove_event(NhSWTyH):1
+L433:Cg2;remove_event(NhSWTyH):0
+L434:Cj2;setdate(4, 1, 2000):1
+L435:Cg2;setdate(4, 1, 2000):1
+L436:Cg2;remove_event(lINHsPa, 29, 2):1
+L437:Cj2;remove_event(lINHsPa, 29, 2):1
+L438:Cg2;setdate(1, 1, 1900):1
+L439:Cj2;setdate(1, 1, 1900):1
+L440:Cj2;setdate(29, 2, 1900):1
+L441:Cg2;setdate(29, 2, 1900):0
+L442: Cj2;print
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-08-20 : xtYLCAh
+1979-10-11 : fQvurql
+1985-06-06 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-02 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : PhzHXsm
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L443: Cg2;print
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : gxlHdKL
+1900-03-13 : utrgYvQ
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-09-15 : xtYLCAh
+1979-11-06 : fQvurql
+1985-07-02 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L444:Cj2;setdate(1, 1, 1900):1
+L445:Cg2;setdate(1, 1, 1900):1
+L446: Cj2;print
+1900-02-27 : YlMktaf
+1900-02-29 : fDjJcTS
+1900-02-29 : lNKPxrY
+1900-02-29 : VIzJGas
+1900-02-29 : VinhFxs
+1900-02-29 : pwBnUhx
+1900-02-29 : mXkTsoH
+1900-02-29 : pflGTJP
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-08-20 : xtYLCAh
+1979-10-11 : fQvurql
+1985-06-06 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-02 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : PhzHXsm
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L447: Cg2;print
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : gxlHdKL
+1900-03-13 : utrgYvQ
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-09-15 : xtYLCAh
+1979-11-06 : fQvurql
+1985-07-02 : NaMRuLn
+1985-12-18 : WMfscoZ
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2012-04-27 : phfUioM
+2016-05-09 : pJliNDF
+2021-08-08 : lLEzIVC
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+L448:Cj2(2x)
+L449:Cg2(2x)
+L450:Cj2 deleted
+L451:Cg2 deleted
+L452:Cj3;setdate(24, 6, 2017):1
+L453:Cg3;setdate(24, 6, 2017):1
+L454:Cg3;add_event(vMqFilO, 2, 1, 1987):1
+L455:Cj3;add_event(vMqFilO, 2, 1, 1987):1
+L456:Cg3;setdate(23, 2, 2003):1
+L457:Cj3;setdate(23, 2, 2003):1
+L458:Cg3;add_event(RQMzLnU):1
+L459:Cj3;add_event(RQMzLnU):1
+L460:Cg3;setdate(22, 6, 2024):1
+L461:Cj3;setdate(22, 6, 2024):1
+L462:Cj3;add_event(FvtBkfe, 13):1
+L463:Cg3;add_event(FvtBkfe, 13):1
+L464:Cj3;setdate(7, 2, 2007):1
+L465:Cg3;setdate(7, 2, 2007):1
+L466:Cg3;add_event(ZBcnmWQ):1
+L467:Cj3;add_event(ZBcnmWQ):1
+L468:Cg3;setdate(26, 7, 1994):1
+L469:Cj3;setdate(26, 7, 1994):1
+L470:Cg3;add_event(UWzeHdA):1
+L471:Cj3;add_event(UWzeHdA):1
+L472:Cj3;setdate(26, 3, 2032):1
+L473:Cg3;setdate(26, 3, 2032):1
+L474:Cg3;add_event(awVjzrK, 22):1
+L475:Cj3;add_event(awVjzrK, 22):1
+L476:Cj3;setdate(12, 8, 1993):1
+L477:Cg3;setdate(12, 8, 1993):1
+L478:Cj3;add_event(lATLCDJ, 14, 7):1
+L479:Cg3;add_event(lATLCDJ, 14, 7):1
+L480:Cj3;setdate(4, 9, 2026):1
+L481:Cg3;setdate(4, 9, 2026):1
+L482:Cg3;add_event(EMKlIzk, 18):1
+L483:Cj3;add_event(EMKlIzk, 18):1
+L484:Cj3;setdate(10, 3, 2000):1
+L485:Cg3;setdate(10, 3, 2000):1
+L486:Cj3;add_event(HfxnXSc):1
+L487:Cg3;add_event(HfxnXSc):1
+L488:Cj3;setdate(20, 5, 1985):1
+L489:Cg3;setdate(20, 5, 1985):1
+L490:Cj3;add_event(qbrJmST, 28, 1):1
+L491:Cg3;add_event(qbrJmST, 28, 1):1
+L492:Cj3;setdate(29, 2, 1900):1
+L493:Cg3;setdate(29, 2, 1900):0
+L494:Cg3;add_event(mpgboJR):1
+L495:Cj3;add_event(mpgboJR):1
+L496:Cj3;setdate(6, 9, 1901):1
+L497:Cg3;setdate(6, 9, 1901):1
+L498:Cj3;add_event(UutQJFB, 29, 2):0
+L499:Cg3;add_event(UutQJFB, 29, 2):0
+L500:Cg3;setdate(27, 4, 2010):1
+L501:Cj3;setdate(27, 4, 2010):1
+L502:Cj3;add_event(HJOlSdK, 29, 2, 2000):1
+L503:Cg3;add_event(HJOlSdK, 29, 2, 2000):1
+L504:Cg3;setdate(20, 4, 1900):1
+L505:Cj3;setdate(20, 4, 1900):1
+L506:Cj3;add_event(vePFjoX, 29, 2):1
+L507:Cg3;add_event(vePFjoX, 29, 2):0
+L508:Cg3;setdate(16, 11, 1901):1
+L509:Cj3;setdate(16, 11, 1901):1
+L510:Cj3;add_event(pxvdkmT, 29, 2):0
+L511:Cg3;add_event(pxvdkmT, 29, 2):0
+L512:Cg3;setdate(21, 2, 2000):1
+L513:Cj3;setdate(21, 2, 2000):1
+L514:Cg3;add_event(RpdmWLB, 29):1
+L515:Cj3;add_event(RpdmWLB, 29):1
+L516:Cj3;setdate(6, 2, 1900):1
+L517:Cg3;setdate(6, 2, 1900):1
+L518:Cj3;add_event(chpGBeb, 29):1
+L519:Cg3;add_event(chpGBeb, 29):0
+L520:Cj3;setdate(7, 6, 1901):1
+L521:Cg3;setdate(7, 6, 1901):1
+L522:Cj3;add_event(kVExJyD, 29, 2):0
+L523:Cg3;add_event(kVExJyD, 29, 2):0
+L524:Cg3;setdate(15, 2, 1990):1
+L525:Cj3;setdate(15, 2, 1990):1
+L526:Cj3;add_event(yRQmqFV, 29, 2, 2000):1
+L527:Cg3;add_event(yRQmqFV, 29, 2, 2000):1
+L528:Cg3;setdate(29, 2, 1900):0
+L529:Cj3;setdate(29, 2, 1900):1
+L530:Cg3;add_event(bPlazmi):1
+L531:Cj3;add_event(bPlazmi):1
+L532:Cg3;setdate(1, 7, 2038):1
+L533:Cj3;setdate(1, 7, 2038):1
+L534:Cg3;add_event(nQOtGEd, 29, 2, 1901):0
+L535:Cj3;add_event(nQOtGEd, 29, 2, 1901):0
+L536:Cg3;setdate(9, 2, 2000):1
+L537:Cj3;setdate(9, 2, 2000):1
+L538:Cg3;add_event(rhqeGUa, 29):1
+L539:Cj3;add_event(rhqeGUa, 29):1
+L540:Cj3;setdate(1, 1, 1900):1
+L541:Cg3;setdate(1, 1, 1900):1
+L542:Cj3;setdate(29, 2, 1900):1
+L543:Cg3;setdate(29, 2, 1900):0
+L544: Cj3;print
+1970-05-21 : OjwMkeG
+1972-06-29 : ZmnSLWd
+1973-05-06 : uMLwSFD
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-01-28 : qbrJmST
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-02-09 : OCfgRTJ
+1996-03-01 : uEFYTBG
+1996-10-06 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-16 : KmplTEc
+2000-02-16 : mXkTsoH
+2000-02-16 : pflGTJP
+2000-02-16 : PhzHXsm
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : RpdmWLB
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-05-19 : MvDeyPH
+2006-05-11 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-04-14 : phfUioM
+2016-04-26 : pJliNDF
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2022-12-14 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2032-03-22 : awVjzrK
+2033-01-13 : CmLIfYK
+2037-05-06 : pwBnUhx
+2037-07-05 : VrkIDEK
+2037-10-24 : KTWMjhz
+L545: Cg3;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1900-03-13 : pwBnUhx
+1900-03-13 : mXkTsoH
+1900-03-13 : pflGTJP
+1970-06-16 : OjwMkeG
+1972-07-25 : ZmnSLWd
+1973-06-01 : uMLwSFD
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-01-28 : qbrJmST
+1985-05-20 : mpgboJR
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-02-15 : bPlazmi
+1990-05-06 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-03-07 : OCfgRTJ
+1996-03-27 : uEFYTBG
+1996-11-01 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : RpdmWLB
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-03-13 : TjYcOzN
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-03-13 : KmplTEc
+2000-03-13 : PhzHXsm
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-06-14 : MvDeyPH
+2006-06-06 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-05-10 : phfUioM
+2016-05-22 : pJliNDF
+2018-01-08 : dCikJXf
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2023-01-09 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2032-03-22 : awVjzrK
+2033-01-13 : CmLIfYK
+2037-07-31 : VrkIDEK
+2037-11-19 : KTWMjhz
+L546:Cg3;setdate(1, 1, 1900):1
+L547:Cj3;setdate(1, 1, 1900):1
+L548: Cg3;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1900-03-13 : pwBnUhx
+1900-03-13 : mXkTsoH
+1900-03-13 : pflGTJP
+1970-06-16 : OjwMkeG
+1972-07-25 : ZmnSLWd
+1973-06-01 : uMLwSFD
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-01-28 : qbrJmST
+1985-05-20 : mpgboJR
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-02-15 : bPlazmi
+1990-05-06 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-03-07 : OCfgRTJ
+1996-03-27 : uEFYTBG
+1996-11-01 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : RpdmWLB
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-03-13 : TjYcOzN
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-03-13 : KmplTEc
+2000-03-13 : PhzHXsm
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-06-14 : MvDeyPH
+2006-06-06 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-05-10 : phfUioM
+2016-05-22 : pJliNDF
+2018-01-08 : dCikJXf
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2023-01-09 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2032-03-22 : awVjzrK
+2033-01-13 : CmLIfYK
+2037-07-31 : VrkIDEK
+2037-11-19 : KTWMjhz
+L549: Cj3;print
+1900-02-15 : YlMktaf
+1900-02-29 : dCikJXf
+1900-02-29 : gxlHdKL
+1900-02-29 : utrgYvQ
+1900-02-29 : mpgboJR
+1900-02-29 : vePFjoX
+1900-02-29 : chpGBeb
+1900-02-29 : bPlazmi
+1970-05-21 : OjwMkeG
+1972-06-29 : ZmnSLWd
+1973-05-06 : uMLwSFD
+1978-09-02 : xtYLCAh
+1979-10-24 : fQvurql
+1985-01-28 : qbrJmST
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-02-09 : OCfgRTJ
+1996-03-01 : uEFYTBG
+1996-10-06 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-16 : KmplTEc
+2000-02-16 : mXkTsoH
+2000-02-16 : pflGTJP
+2000-02-16 : PhzHXsm
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : RpdmWLB
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-05-19 : MvDeyPH
+2006-05-11 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-04-14 : phfUioM
+2016-04-26 : pJliNDF
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2022-12-14 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2032-03-22 : awVjzrK
+2033-01-13 : CmLIfYK
+2037-05-06 : pwBnUhx
+2037-07-05 : VrkIDEK
+2037-10-24 : KTWMjhz
+L550:Cj3;setdate(19, 10, 1996):1
+L551:Cg3;setdate(19, 10, 1996):1
+L552:Cg3;remove_event(SQTGPfy):0
+L553:Cj3;remove_event(SQTGPfy):0
+L554:Cg3;setdate(29, 2, 1901):0
+L555:Cj3;setdate(29, 2, 1901):0
+L556:Cg3;remove_event(YlMktaf):0
+L557:Cj3;remove_event(YlMktaf):0
+L558:Cg3;setdate(10, 2, 1901):1
+L559:Cj3;setdate(10, 2, 1901):1
+L560:Cj3;remove_event(sPOTcXG, 29):0
+L561:Cg3;remove_event(sPOTcXG, 29):0
+L562:Cj3;setdate(5, 8, 1900):1
+L563:Cg3;setdate(5, 8, 1900):1
+L564:Cg3;remove_event(UVSJkvo, 29, 2):0
+L565:Cj3;remove_event(UVSJkvo, 29, 2):0
+L566:Cg3;setdate(19, 9, 1979):1
+L567:Cj3;setdate(19, 9, 1979):1
+L568:Cg3;remove_event(fQvurql, 24, 10):1
+L569:Cj3;remove_event(fQvurql, 24, 10):1
+L570:Cg3;setdate(19, 5, 1997):1
+L571:Cj3;setdate(19, 5, 1997):1
+L572:Cj3;remove_event(PwMckTX, 3, 8):0
+L573:Cg3;remove_event(PwMckTX, 3, 8):0
+L574:Cj3;setdate(29, 2, 1900):1
+L575:Cg3;setdate(29, 2, 1900):0
+L576:Cg3;remove_event(gxlHdKL):0
+L577:Cj3;remove_event(gxlHdKL):1
+L578:Cj3;setdate(29, 2, 1901):0
+L579:Cg3;setdate(29, 2, 1901):0
+L580:Cg3;remove_event(tVrqPiN):0
+L581:Cj3;remove_event(tVrqPiN):0
+L582:Cg3;setdate(20, 12, 1900):1
+L583:Cj3;setdate(20, 12, 1900):1
+L584:Cg3;remove_event(ZNxnVsM, 29, 2):0
+L585:Cj3;remove_event(ZNxnVsM, 29, 2):0
+L586:Cg3;setdate(12, 2, 1900):1
+L587:Cj3;setdate(12, 2, 1900):1
+L588:Cg3;remove_event(utrgYvQ, 29):0
+L589:Cj3;remove_event(utrgYvQ, 29):1
+L590:Cg3;setdate(8, 2, 1995):1
+L591:Cj3;setdate(8, 2, 1995):1
+L592:Cg3;remove_event(OCfgRTJ, 22):0
+L593:Cj3;remove_event(OCfgRTJ, 22):0
+L594:Cg3;setdate(26, 9, 1974):1
+L595:Cj3;setdate(26, 9, 1974):1
+L596:Cj3;remove_event(WCqREXH, 23):0
+L597:Cg3;remove_event(WCqREXH, 23):0
+L598:Cj3;setdate(6, 11, 2037):1
+L599:Cg3;setdate(6, 11, 2037):1
+L600:Cj3;remove_event(KTWMjhz):0
+L601:Cg3;remove_event(KTWMjhz):0
+L602:Cj3;setdate(1, 2, 2000):1
+L603:Cg3;setdate(1, 2, 2000):1
+L604:Cj3;remove_event(KmplTEc, 29):0
+L605:Cg3;remove_event(KmplTEc, 29):0
+L606:Cj3;setdate(2, 11, 1970):1
+L607:Cg3;setdate(2, 11, 1970):1
+L608:Cj3;remove_event(mXkTsoH, 29, 2, 1900):0
+L609:Cg3;remove_event(mXkTsoH, 29, 2, 1900):0
+L610:Cg3;setdate(28, 3, 1901):1
+L611:Cj3;setdate(28, 3, 1901):1
+L612:Cg3;remove_event(pflGTJP, 29, 2):0
+L613:Cj3;remove_event(pflGTJP, 29, 2):0
+L614:Cj3;setdate(29, 2, 1900):1
+L615:Cg3;setdate(29, 2, 1900):0
+L616:Cj3;remove_event(NhSWTyH):0
+L617:Cg3;remove_event(NhSWTyH):0
+L618:Cj3;setdate(29, 2, 2000):1
+L619:Cg3;setdate(29, 2, 2000):1
+L620:Cj3;remove_event(lINHsPa):0
+L621:Cg3;remove_event(lINHsPa):0
+L622:Cj3;setdate(22, 3, 2032):1
+L623:Cg3;setdate(22, 3, 2032):1
+L624:Cg3;remove_event(awVjzrK):1
+L625:Cj3;remove_event(awVjzrK):1
+L626:Cj3;setdate(27, 3, 2000):1
+L627:Cg3;setdate(27, 3, 2000):1
+L628:Cg3;remove_event(RpdmWLB, 29, 2):1
+L629:Cj3;remove_event(RpdmWLB, 29, 2):1
+L630:Cj3;setdate(5, 2, 1901):1
+L631:Cg3;setdate(5, 2, 1901):1
+L632:Cj3;remove_event(nQOtGEd, 29):0
+L633:Cg3;remove_event(nQOtGEd, 29):0
+L634:Cg3;setdate(1, 1, 1900):1
+L635:Cj3;setdate(1, 1, 1900):1
+L636:Cj3;setdate(29, 2, 1900):1
+L637:Cg3;setdate(29, 2, 1900):0
+L638: Cj3;print
+1970-05-21 : OjwMkeG
+1972-06-29 : ZmnSLWd
+1973-05-06 : uMLwSFD
+1978-09-02 : xtYLCAh
+1985-01-28 : qbrJmST
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-02-09 : OCfgRTJ
+1996-03-01 : uEFYTBG
+1996-10-06 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-16 : KmplTEc
+2000-02-16 : mXkTsoH
+2000-02-16 : pflGTJP
+2000-02-16 : PhzHXsm
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-05-19 : MvDeyPH
+2006-05-11 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-04-14 : phfUioM
+2016-04-26 : pJliNDF
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2022-12-14 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+2037-05-06 : pwBnUhx
+2037-07-05 : VrkIDEK
+2037-10-24 : KTWMjhz
+L639: Cg3;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1900-03-13 : pwBnUhx
+1900-03-13 : mXkTsoH
+1900-03-13 : pflGTJP
+1970-06-16 : OjwMkeG
+1972-07-25 : ZmnSLWd
+1973-06-01 : uMLwSFD
+1978-09-02 : xtYLCAh
+1985-01-28 : qbrJmST
+1985-05-20 : mpgboJR
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-02-15 : bPlazmi
+1990-05-06 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-03-07 : OCfgRTJ
+1996-03-27 : uEFYTBG
+1996-11-01 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-03-13 : TjYcOzN
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-03-13 : KmplTEc
+2000-03-13 : PhzHXsm
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-06-14 : MvDeyPH
+2006-06-06 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-05-10 : phfUioM
+2016-05-22 : pJliNDF
+2018-01-08 : dCikJXf
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2023-01-09 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+2037-07-31 : VrkIDEK
+2037-11-19 : KTWMjhz
+L640:Cg3;setdate(1, 1, 1900):1
+L641:Cj3;setdate(1, 1, 1900):1
+L642: Cj3;print
+1900-02-15 : YlMktaf
+1900-02-29 : dCikJXf
+1900-02-29 : mpgboJR
+1900-02-29 : vePFjoX
+1900-02-29 : chpGBeb
+1900-02-29 : bPlazmi
+1970-05-21 : OjwMkeG
+1972-06-29 : ZmnSLWd
+1973-05-06 : uMLwSFD
+1978-09-02 : xtYLCAh
+1985-01-28 : qbrJmST
+1985-06-19 : NaMRuLn
+1985-12-05 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-04-10 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-02-09 : OCfgRTJ
+1996-03-01 : uEFYTBG
+1996-10-06 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-16 : TjYcOzN
+2000-02-16 : iIujqZg
+2000-02-16 : RTYvAeV
+2000-02-16 : KmplTEc
+2000-02-16 : mXkTsoH
+2000-02-16 : pflGTJP
+2000-02-16 : PhzHXsm
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-05-10 : trcZfIA
+2000-06-09 : lNKPxrY
+2000-06-09 : VIzJGas
+2000-07-10 : UVSJkvo
+2000-07-10 : VinhFxs
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-05-19 : MvDeyPH
+2006-05-11 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-04-14 : phfUioM
+2016-04-26 : pJliNDF
+2021-07-26 : lLEzIVC
+2022-05-19 : bmfXZwW
+2022-12-14 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+2037-05-06 : pwBnUhx
+2037-07-05 : VrkIDEK
+2037-10-24 : KTWMjhz
+L643: Cg3;print
+1900-03-11 : YlMktaf
+1900-03-13 : fDjJcTS
+1900-03-13 : lNKPxrY
+1900-03-13 : VIzJGas
+1900-03-13 : VinhFxs
+1900-03-13 : pwBnUhx
+1900-03-13 : mXkTsoH
+1900-03-13 : pflGTJP
+1970-06-16 : OjwMkeG
+1972-07-25 : ZmnSLWd
+1973-06-01 : uMLwSFD
+1978-09-02 : xtYLCAh
+1985-01-28 : qbrJmST
+1985-05-20 : mpgboJR
+1985-06-19 : NaMRuLn
+1985-12-31 : WMfscoZ
+1987-01-02 : vMqFilO
+1987-05-15 : DvNXwjc
+1990-02-15 : bPlazmi
+1990-05-06 : gJZAClz
+1993-07-14 : lATLCDJ
+1994-07-26 : UWzeHdA
+1995-03-07 : OCfgRTJ
+1996-03-27 : uEFYTBG
+1996-11-01 : SQTGPfy
+1997-12-24 : RMGypDl
+2000-02-19 : utrgYvQ
+2000-02-29 : LfgFuDr
+2000-02-29 : kGxnAXW
+2000-02-29 : pYxkiVz
+2000-02-29 : HJOlSdK
+2000-02-29 : yRQmqFV
+2000-02-29 : rhqeGUa
+2000-03-10 : HfxnXSc
+2000-03-13 : TjYcOzN
+2000-03-13 : iIujqZg
+2000-03-13 : RTYvAeV
+2000-03-13 : KmplTEc
+2000-03-13 : PhzHXsm
+2000-06-05 : trcZfIA
+2002-05-06 : BybWFLN
+2003-02-23 : RQMzLnU
+2005-06-14 : MvDeyPH
+2006-06-06 : JPYTxIK
+2007-02-07 : ZBcnmWQ
+2012-05-10 : phfUioM
+2016-05-22 : pJliNDF
+2018-01-08 : dCikJXf
+2021-08-21 : lLEzIVC
+2022-06-14 : bmfXZwW
+2023-01-09 : DtAlBNJ
+2024-06-13 : FvtBkfe
+2026-09-18 : EMKlIzk
+2027-01-06 : hcIYFjD
+2033-01-13 : CmLIfYK
+2037-07-31 : VrkIDEK
+2037-11-19 : KTWMjhz
+L644:Cj3(3x)
+L645:Cg3(3x)
+L646:Cj3 deleted
+L647:Cg3 deleted
+L648:Cg4;setdate(1, 9, 2026):1
+L649:Cj4;setdate(1, 9, 2026):1
+L650:Cj4;add_event(WcvqhKI):1
+L651:Cg4;add_event(WcvqhKI):1
+L652:Cg4;setdate(2, 12, 2009):1
+L653:Cj4;setdate(2, 12, 2009):1
+L654:Cj4;add_event(KPOujnd, 5, 5, 2013):1
+L655:Cg4;add_event(KPOujnd, 5, 5, 2013):1
+L656:Cg4;setdate(20, 8, 2034):1
+L657:Cj4;setdate(20, 8, 2034):1
+L658:Cg4;add_event(ygRNxKc, 8):1
+L659:Cj4;add_event(ygRNxKc, 8):1
+L660:Cg4;setdate(24, 8, 2035):1
+L661:Cj4;setdate(24, 8, 2035):1
+L662:Cg4;add_event(ucvVjQn, 22, 4):1
+L663:Cj4;add_event(ucvVjQn, 22, 4):1
+L664:Cj4;setdate(20, 12, 2037):1
+L665:Cg4;setdate(20, 12, 2037):1
+L666:Cj4;add_event(LOQlhGc):1
+L667:Cg4;add_event(LOQlhGc):1
+L668:Cg4;setdate(5, 12, 2021):1
+L669:Cj4;setdate(5, 12, 2021):1
+L670:Cg4;add_event(TwklOnH):1
+L671:Cj4;add_event(TwklOnH):1
+L672:Cj4;setdate(6, 11, 2035):1
+L673:Cg4;setdate(6, 11, 2035):1
+L674:Cj4;add_event(kqmpnMb, 6, 1, 2034):1
+L675:Cg4;add_event(kqmpnMb, 6, 1, 2034):1
+L676:Cg4;setdate(7, 5, 2026):1
+L677:Cj4;setdate(7, 5, 2026):1
+L678:Cj4;add_event(KcyuLje, 17, 1):1
+L679:Cg4;add_event(KcyuLje, 17, 1):1
+L680:Cj4;setdate(22, 7, 2027):1
+L681:Cg4;setdate(22, 7, 2027):1
+L682:Cg4;add_event(MUagqeF, 5, 8, 1985):1
+L683:Cj4;add_event(MUagqeF, 5, 8, 1985):1
+L684:Cj4;setdate(28, 4, 2012):1
+L685:Cg4;setdate(28, 4, 2012):1
+L686:Cj4;add_event(xcfdzRy):1
+L687:Cg4;add_event(xcfdzRy):1
+L688:Cg4;setdate(24, 2, 1900):1
+L689:Cj4;setdate(24, 2, 1900):1
+L690:Cj4;add_event(qHpLTJE, 29):1
+L691:Cg4;add_event(qHpLTJE, 29):0
+L692:Cg4;setdate(27, 12, 1901):1
+L693:Cj4;setdate(27, 12, 1901):1
+L694:Cj4;add_event(vADdayR, 29, 2):0
+L695:Cg4;add_event(vADdayR, 29, 2):0
+L696:Cg4;setdate(17, 2, 2000):1
+L697:Cj4;setdate(17, 2, 2000):1
+L698:Cj4;add_event(FavXlwz, 29):1
+L699:Cg4;add_event(FavXlwz, 29):1
+L700:Cg4;setdate(21, 2, 1900):1
+L701:Cj4;setdate(21, 2, 1900):1
+L702:Cj4;add_event(MRtnILc, 29):1
+L703:Cg4;add_event(MRtnILc, 29):0
+L704:Cj4;setdate(1, 2, 1901):1
+L705:Cg4;setdate(1, 2, 1901):1
+L706:Cj4;add_event(ltiMdhs, 29):0
+L707:Cg4;add_event(ltiMdhs, 29):0
+L708:Cj4;setdate(4, 2, 2000):1
+L709:Cg4;setdate(4, 2, 2000):1
+L710:Cj4;add_event(xUZGEuh, 29):1
+L711:Cg4;add_event(xUZGEuh, 29):1
+L712:Cg4;setdate(12, 2, 1999):1
+L713:Cj4;setdate(12, 2, 1999):1
+L714:Cg4;add_event(PGqTlVF, 29, 2, 1900):0
+L715:Cj4;add_event(PGqTlVF, 29, 2, 1900):1
+L716:Cg4;setdate(9, 10, 1901):1
+L717:Cj4;setdate(9, 10, 1901):1
+L718:Cg4;add_event(sgajfXI, 29, 2):0
+L719:Cj4;add_event(sgajfXI, 29, 2):0
+L720:Cj4;setdate(25, 1, 2022):1
+L721:Cg4;setdate(25, 1, 2022):1
+L722:Cj4;add_event(ugRJdPk, 29, 2, 2000):1
+L723:Cg4;add_event(ugRJdPk, 29, 2, 2000):1
+L724:Cg4;setdate(22, 2, 1900):1
+L725:Cj4;setdate(22, 2, 1900):1
+L726:Cj4;add_event(DGOnyiJ, 29):1
+L727:Cg4;add_event(DGOnyiJ, 29):0
+L728:Cg4;setdate(29, 2, 1901):0
+L729:Cj4;setdate(29, 2, 1901):0
+L730:Cg4;add_event(UcpmVRa):1
+L731:Cj4;add_event(UcpmVRa):1
+L732:Cj4;setdate(20, 2, 2000):1
+L733:Cg4;setdate(20, 2, 2000):1
+L734:Cj4;add_event(yZtDeaY, 29):1
+L735:Cg4;add_event(yZtDeaY, 29):1
+L736:Cj4;setdate(1, 1, 1900):1
+L737:Cg4;setdate(1, 1, 1900):1
+L738:Cj4;setdate(29, 2, 1900):1
+L739:Cg4;setdate(29, 2, 1900):0
+L740: Cj4;print
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-08-20 : xtYLCAh
+1985-01-15 : qbrJmST
+1985-05-07 : mpgboJR
+1985-06-06 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1986-12-20 : vMqFilO
+1987-05-02 : DvNXwjc
+1990-02-02 : bPlazmi
+1990-04-23 : gJZAClz
+1993-07-01 : lATLCDJ
+1994-07-13 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-16 : HJOlSdK
+2000-02-16 : yRQmqFV
+2000-02-16 : rhqeGUa
+2000-02-26 : HfxnXSc
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : ugRJdPk
+2000-02-29 : yZtDeaY
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2003-02-10 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-01-25 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-05-31 : FvtBkfe
+2026-01-17 : KcyuLje
+2026-09-01 : WcvqhKI
+2026-09-05 : EMKlIzk
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+2037-12-20 : LOQlhGc
+L741: Cg4;print
+1900-02-22 : UcpmVRa
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : mpgboJR
+1900-03-13 : vePFjoX
+1900-03-13 : chpGBeb
+1900-03-13 : bPlazmi
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-09-15 : xtYLCAh
+1985-02-10 : qbrJmST
+1985-07-02 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1987-01-15 : vMqFilO
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1993-07-27 : lATLCDJ
+1994-08-08 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : ugRJdPk
+2000-02-29 : yZtDeaY
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-03-13 : HJOlSdK
+2000-03-13 : yRQmqFV
+2000-03-13 : rhqeGUa
+2000-03-23 : HfxnXSc
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2003-03-08 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-02-20 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-06-26 : FvtBkfe
+2026-01-17 : KcyuLje
+2026-09-01 : WcvqhKI
+2026-10-01 : EMKlIzk
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+2037-12-20 : LOQlhGc
+L742:Cj4;setdate(1, 1, 1900):1
+L743:Cg4;setdate(1, 1, 1900):1
+L744: Cj4;print
+1900-02-22 : UcpmVRa
+1900-02-27 : YlMktaf
+1900-02-29 : fDjJcTS
+1900-02-29 : lNKPxrY
+1900-02-29 : VIzJGas
+1900-02-29 : VinhFxs
+1900-02-29 : pwBnUhx
+1900-02-29 : mXkTsoH
+1900-02-29 : pflGTJP
+1900-02-29 : qHpLTJE
+1900-02-29 : MRtnILc
+1900-02-29 : PGqTlVF
+1900-02-29 : DGOnyiJ
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-08-20 : xtYLCAh
+1985-01-15 : qbrJmST
+1985-05-07 : mpgboJR
+1985-06-06 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1986-12-20 : vMqFilO
+1987-05-02 : DvNXwjc
+1990-02-02 : bPlazmi
+1990-04-23 : gJZAClz
+1993-07-01 : lATLCDJ
+1994-07-13 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-16 : HJOlSdK
+2000-02-16 : yRQmqFV
+2000-02-16 : rhqeGUa
+2000-02-26 : HfxnXSc
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : ugRJdPk
+2000-02-29 : yZtDeaY
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2003-02-10 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-01-25 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-05-31 : FvtBkfe
+2026-01-17 : KcyuLje
+2026-09-01 : WcvqhKI
+2026-09-05 : EMKlIzk
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+2037-12-20 : LOQlhGc
+L745: Cg4;print
+1900-02-22 : UcpmVRa
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : mpgboJR
+1900-03-13 : vePFjoX
+1900-03-13 : chpGBeb
+1900-03-13 : bPlazmi
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-09-15 : xtYLCAh
+1985-02-10 : qbrJmST
+1985-07-02 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1987-01-15 : vMqFilO
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1993-07-27 : lATLCDJ
+1994-08-08 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : KmplTEc
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : ugRJdPk
+2000-02-29 : yZtDeaY
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-03-13 : HJOlSdK
+2000-03-13 : yRQmqFV
+2000-03-13 : rhqeGUa
+2000-03-23 : HfxnXSc
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2003-03-08 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-02-20 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-06-26 : FvtBkfe
+2026-01-17 : KcyuLje
+2026-09-01 : WcvqhKI
+2026-10-01 : EMKlIzk
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+2037-11-06 : KTWMjhz
+2037-12-20 : LOQlhGc
+L746:Cg4;setdate(29, 2, 1900):0
+L747:Cj4;setdate(29, 2, 1900):1
+L748:Cj4;remove_event(wUSCkHu):0
+L749:Cg4;remove_event(wUSCkHu):0
+L750:Cg4;setdate(16, 10, 2028):1
+L751:Cj4;setdate(16, 10, 2028):1
+L752:Cg4;remove_event(YlMktaf, 29, 2, 1901):0
+L753:Cj4;remove_event(YlMktaf, 29, 2, 1901):0
+L754:Cj4;setdate(26, 9, 2000):1
+L755:Cg4;setdate(26, 9, 2000):1
+L756:Cg4;remove_event(sPOTcXG, 29, 2, 1901):0
+L757:Cj4;remove_event(sPOTcXG, 29, 2, 1901):0
+L758:Cg4;setdate(29, 2, 1900):0
+L759:Cj4;setdate(29, 2, 1900):1
+L760:Cg4;remove_event(UVSJkvo):0
+L761:Cj4;remove_event(UVSJkvo):0
+L762:Cj4;setdate(27, 12, 1997):1
+L763:Cg4;setdate(27, 12, 1997):1
+L764:Cj4;remove_event(RMGypDl, 24):0
+L765:Cg4;remove_event(RMGypDl, 24):0
+L766:Cj4;setdate(18, 6, 1972):1
+L767:Cg4;setdate(18, 6, 1972):1
+L768:Cj4;remove_event(PwMckTX, 3, 8, 1997):0
+L769:Cg4;remove_event(PwMckTX, 3, 8, 1997):0
+L770:Cj4;setdate(12, 11, 2016):1
+L771:Cg4;setdate(12, 11, 2016):1
+L772:Cj4;remove_event(gxlHdKL, 29, 2, 1900):0
+L773:Cg4;remove_event(gxlHdKL, 29, 2, 1900):0
+L774:Cj4;setdate(23, 9, 1974):1
+L775:Cg4;setdate(23, 9, 1974):1
+L776:Cg4;remove_event(WCqREXH):0
+L777:Cj4;remove_event(WCqREXH):0
+L778:Cg4;setdate(25, 9, 1972):1
+L779:Cj4;setdate(25, 9, 1972):1
+L780:Cj4;remove_event(OJjTEbN, 20, 11):0
+L781:Cg4;remove_event(OJjTEbN, 20, 11):0
+L782:Cg4;setdate(9, 11, 2037):1
+L783:Cj4;setdate(9, 11, 2037):1
+L784:Cg4;remove_event(KTWMjhz, 6):1
+L785:Cj4;remove_event(KTWMjhz, 6):1
+L786:Cj4;setdate(23, 2, 2000):1
+L787:Cg4;setdate(23, 2, 2000):1
+L788:Cj4;remove_event(KmplTEc, 29):1
+L789:Cg4;remove_event(KmplTEc, 29):1
+L790:Cg4;setdate(11, 2, 1901):1
+L791:Cj4;setdate(11, 2, 1901):1
+L792:Cg4;remove_event(pflGTJP, 29):0
+L793:Cj4;remove_event(pflGTJP, 29):0
+L794:Cj4;setdate(2, 2, 1901):1
+L795:Cg4;setdate(2, 2, 1901):1
+L796:Cg4;remove_event(ofiHVMY, 29):0
+L797:Cj4;remove_event(ofiHVMY, 29):0
+L798:Cg4;setdate(12, 2, 2000):1
+L799:Cj4;setdate(12, 2, 2000):1
+L800:Cg4;remove_event(WucUiCH, 29):0
+L801:Cj4;remove_event(WucUiCH, 29):0
+L802:Cg4;setdate(12, 2, 1900):1
+L803:Cj4;setdate(12, 2, 1900):1
+L804:Cj4;remove_event(NhSWTyH, 29):0
+L805:Cg4;remove_event(NhSWTyH, 29):0
+L806:Cj4;setdate(10, 3, 2000):1
+L807:Cg4;setdate(10, 3, 2000):1
+L808:Cg4;remove_event(HfxnXSc):0
+L809:Cj4;remove_event(HfxnXSc):0
+L810:Cg4;setdate(29, 2, 2000):1
+L811:Cj4;setdate(29, 2, 2000):1
+L812:Cj4;remove_event(RpdmWLB):0
+L813:Cg4;remove_event(RpdmWLB):0
+L814:Cj4;setdate(10, 11, 2002):1
+L815:Cg4;setdate(10, 11, 2002):1
+L816:Cg4;remove_event(LOQlhGc, 20, 12, 2037):1
+L817:Cj4;remove_event(LOQlhGc, 20, 12, 2037):1
+L818:Cj4;setdate(2, 10, 2026):1
+L819:Cg4;setdate(2, 10, 2026):1
+L820:Cj4;remove_event(KcyuLje, 17, 1):1
+L821:Cg4;remove_event(KcyuLje, 17, 1):1
+L822:Cj4;setdate(16, 11, 2013):1
+L823:Cg4;setdate(16, 11, 2013):1
+L824:Cj4;remove_event(ugRJdPk, 29, 2, 2000):1
+L825:Cg4;remove_event(ugRJdPk, 29, 2, 2000):1
+L826:Cj4;setdate(1, 1, 1900):1
+L827:Cg4;setdate(1, 1, 1900):1
+L828:Cj4;setdate(29, 2, 1900):1
+L829:Cg4;setdate(29, 2, 1900):0
+L830: Cg4;print
+1900-02-22 : UcpmVRa
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : mpgboJR
+1900-03-13 : vePFjoX
+1900-03-13 : chpGBeb
+1900-03-13 : bPlazmi
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-09-15 : xtYLCAh
+1985-02-10 : qbrJmST
+1985-07-02 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1987-01-15 : vMqFilO
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1993-07-27 : lATLCDJ
+1994-08-08 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : yZtDeaY
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-03-13 : HJOlSdK
+2000-03-13 : yRQmqFV
+2000-03-13 : rhqeGUa
+2000-03-23 : HfxnXSc
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2003-03-08 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-02-20 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-06-26 : FvtBkfe
+2026-09-01 : WcvqhKI
+2026-10-01 : EMKlIzk
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+L831: Cj4;print
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-08-20 : xtYLCAh
+1985-01-15 : qbrJmST
+1985-05-07 : mpgboJR
+1985-06-06 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1986-12-20 : vMqFilO
+1987-05-02 : DvNXwjc
+1990-02-02 : bPlazmi
+1990-04-23 : gJZAClz
+1993-07-01 : lATLCDJ
+1994-07-13 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-16 : HJOlSdK
+2000-02-16 : yRQmqFV
+2000-02-16 : rhqeGUa
+2000-02-26 : HfxnXSc
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : yZtDeaY
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2003-02-10 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-01-25 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-05-31 : FvtBkfe
+2026-09-01 : WcvqhKI
+2026-09-05 : EMKlIzk
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-07-18 : VrkIDEK
+L832:Cj4;setdate(1, 1, 1900):1
+L833:Cg4;setdate(1, 1, 1900):1
+L834: Cj4;print
+1900-02-22 : UcpmVRa
+1900-02-27 : YlMktaf
+1900-02-29 : fDjJcTS
+1900-02-29 : lNKPxrY
+1900-02-29 : VIzJGas
+1900-02-29 : VinhFxs
+1900-02-29 : pwBnUhx
+1900-02-29 : mXkTsoH
+1900-02-29 : pflGTJP
+1900-02-29 : qHpLTJE
+1900-02-29 : MRtnILc
+1900-02-29 : PGqTlVF
+1900-02-29 : DGOnyiJ
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-08-20 : xtYLCAh
+1985-01-15 : qbrJmST
+1985-05-07 : mpgboJR
+1985-06-06 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1986-12-20 : vMqFilO
+1987-05-02 : DvNXwjc
+1990-02-02 : bPlazmi
+1990-04-23 : gJZAClz
+1993-07-01 : lATLCDJ
+1994-07-13 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1997-12-11 : RMGypDl
+2000-02-06 : utrgYvQ
+2000-02-16 : LfgFuDr
+2000-02-16 : kGxnAXW
+2000-02-16 : pYxkiVz
+2000-02-16 : HJOlSdK
+2000-02-16 : yRQmqFV
+2000-02-16 : rhqeGUa
+2000-02-26 : HfxnXSc
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : yZtDeaY
+2000-05-23 : trcZfIA
+2002-04-23 : BybWFLN
+2003-02-10 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-01-25 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2017-12-26 : dCikJXf
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-05-31 : FvtBkfe
+2026-09-01 : WcvqhKI
+2026-09-05 : EMKlIzk
+2026-12-24 : hcIYFjD
+2032-12-31 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-07-18 : VrkIDEK
+L835: Cg4;print
+1900-02-22 : UcpmVRa
+1900-02-27 : YlMktaf
+1900-03-13 : dCikJXf
+1900-03-13 : mpgboJR
+1900-03-13 : vePFjoX
+1900-03-13 : chpGBeb
+1900-03-13 : bPlazmi
+1970-06-03 : OjwMkeG
+1972-07-12 : ZmnSLWd
+1973-05-19 : uMLwSFD
+1978-09-15 : xtYLCAh
+1985-02-10 : qbrJmST
+1985-07-02 : NaMRuLn
+1985-08-05 : MUagqeF
+1985-12-18 : WMfscoZ
+1987-01-15 : vMqFilO
+1987-05-28 : DvNXwjc
+1990-04-23 : gJZAClz
+1993-07-27 : lATLCDJ
+1994-08-08 : UWzeHdA
+1995-02-22 : OCfgRTJ
+1996-03-14 : uEFYTBG
+1996-10-19 : SQTGPfy
+1998-01-06 : RMGypDl
+2000-02-29 : TjYcOzN
+2000-02-29 : iIujqZg
+2000-02-29 : RTYvAeV
+2000-02-29 : mXkTsoH
+2000-02-29 : pflGTJP
+2000-02-29 : PhzHXsm
+2000-02-29 : FavXlwz
+2000-02-29 : xUZGEuh
+2000-02-29 : yZtDeaY
+2000-03-13 : LfgFuDr
+2000-03-13 : kGxnAXW
+2000-03-13 : pYxkiVz
+2000-03-13 : HJOlSdK
+2000-03-13 : yRQmqFV
+2000-03-13 : rhqeGUa
+2000-03-23 : HfxnXSc
+2000-05-23 : trcZfIA
+2000-06-22 : lNKPxrY
+2000-06-22 : VIzJGas
+2000-07-23 : UVSJkvo
+2000-07-23 : VinhFxs
+2002-05-19 : BybWFLN
+2003-03-08 : RQMzLnU
+2005-06-01 : MvDeyPH
+2006-05-24 : JPYTxIK
+2007-02-20 : ZBcnmWQ
+2012-04-27 : phfUioM
+2012-04-28 : xcfdzRy
+2013-05-05 : KPOujnd
+2016-05-09 : pJliNDF
+2021-08-08 : lLEzIVC
+2021-12-05 : TwklOnH
+2022-06-01 : bmfXZwW
+2022-12-27 : DtAlBNJ
+2024-06-26 : FvtBkfe
+2026-09-01 : WcvqhKI
+2026-10-01 : EMKlIzk
+2027-01-19 : hcIYFjD
+2033-01-26 : CmLIfYK
+2034-01-06 : kqmpnMb
+2034-08-08 : ygRNxKc
+2035-04-22 : ucvVjQn
+2037-05-19 : pwBnUhx
+2037-07-18 : VrkIDEK
+L836:Cg4 deleted
+L837:Cj4 deleted
